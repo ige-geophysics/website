@@ -1,10 +1,11 @@
 ---
-title: More 
+title: More
 layout: index
 dropdown: true
 content:
-    - ../advanced
-    - ../blog 
+    - ../more-1
+    #- ../advanced
+    - ../blog
     - ../manual
 
 ---
