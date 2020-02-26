@@ -57,3 +57,7 @@ target/
 
 # Automatically built and deployed with TravisCI
 _build/
+
+# Vim files
+.*~
+.*.swp
