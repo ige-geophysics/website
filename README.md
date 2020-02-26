@@ -1,6 +1,6 @@
 # Source code for https://ige-geophysics.github.io/
 
-[![Build Status](https://img.shields.io/travis/hbueno/website/master.svg?style=flat-square)](https://travis-ci.org/hbueno/website)
+[![Build Status](https://img.shields.io/travis/ige-geophysics/website/master.svg?style=flat-square)](https://travis-ci.org/ige-geophysics/website)
 [![Powered by Urubu](https://img.shields.io/badge/powered_by-urubu-blue.svg?style=flat-square)](http://urubu.jandecaluwe.com/)
 
 This is the source code for the Geophysics Lab website
