@@ -6,7 +6,7 @@
 This is the source code for the Geophysics Lab website
 [ige-geophysics.github.io](https://ige-geophysics.github.io).
 
-## Dependecies
+## Dependencies
 
 See `environment.yml`.
 
