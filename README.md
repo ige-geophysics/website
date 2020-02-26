@@ -8,15 +8,15 @@ This is the source code for the Geophysics Lab website
 
 ## Dependecies
 
-See 'environment.yml'.
+See `environment.yml`.
 
-Python 3.5+
+Python 3.5+.
 
-Urubu
+Urubu.
 
 ## To compile
 
-Using the 'Makefile':
+Using the `Makefile`:
 
 ```make
 make
