@@ -54,3 +54,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Automatically built and deployed with TravisCI
+_build/
