@@ -1,12 +1,19 @@
 ---
-title: Urubu Quickstart
-layout: home 
+title: Laboratório de Geofísica
+layout: home
 content:
-    - start
-    - content
-    - customize
-    - deploy
-    - more 
+    - about
+    - members
+    - infra
+    - research
+    - publications
+    - localization
+    - contact
+#    - start
+#    - content
+#    - customize
+#    - deploy
+    - more
 tagline:
-    Set up your new Urubu project quickly
+    Página em construção
 ---
