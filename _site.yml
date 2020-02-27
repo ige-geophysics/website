@@ -1,6 +1,6 @@
 title: Meu titulo
 
-description: AAA * BBB * CCC
+description: Research, inovation
 
 #url: http://www.ige.unicamp.br/geophysics
 
@@ -10,7 +10,9 @@ author: hbsantos
 
 language: en
 
-brand: Laboratório de Geofísica
+keywords: 'science, geoscience, geophysics, geology'
+
+brand: "Laboratório de <strong>Geofísica</strong>"
 
 bootswatch: cosmo # null # flatly, yeti, lumen,...
 navbar_inverse: false
@@ -20,6 +22,17 @@ navbar_right_items: 1
 # Fill out your Google Analytics ID here
 #google_analytics: UA-48968311-4
 
+keep_files: [".nojekyll"]
+
+ignore_patterns: [
+    "README.md",
+    "LICENSE.md",
+    ".github_deploy_key.enc",
+    "environment.yml",
+    "requirements.txt",
+    ]
+
+#strict_undefined: true
 
 reflinks:
     urubu:
