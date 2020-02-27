@@ -9,10 +9,6 @@ content:
     - publications
     - localization
     - contact
-#    - start
-#    - content
-#    - customize
-#    - deploy
     - more
 #    - geophysics
 tagline:
