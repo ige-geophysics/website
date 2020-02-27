@@ -1,6 +1,18 @@
+title: Meu titulo
+
+description: AAA * BBB * CCC
+
+#url: http://www.ige.unicamp.br/geophysics
+
+baseurl: geophysics
+
+author: hbsantos
+
+language: en
+
 brand: Laboratório de Geofísica
 
-bootswatch: null # flatly, yeti, lumen,...
+bootswatch: cosmo # null # flatly, yeti, lumen,...
 navbar_inverse: false
 bootstrap: 3.3.6
 navbar_right_items: 1
