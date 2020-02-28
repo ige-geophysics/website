@@ -1,18 +1,24 @@
-title: Meu titulo
+name: "Nome do Laboratório"
 
-description: Research, inovation
+title: "<strong>GEOPHYSICS</strong>lab"
+
+#menu_logo: "/images/lab-logo.png"
+
+description: "Geophysical research and inovation"
+
+#banner: "/images/lab-banner.svg"
 
 #url: http://www.ige.unicamp.br/geophysics
 
 baseurl: geophysics
 
-author: hbsantos
+author: Henrique B. Santos
 
 language: en
 
 keywords: 'science, geoscience, geophysics, geology'
 
-brand: "Laboratório de <strong>Geofísica</strong>"
+brand: "Laboratory of <strong>Geophysics</strong>"
 
 bootswatch: cosmo # null # flatly, yeti, lumen,...
 
@@ -39,8 +45,8 @@ ignore_patterns: [
 #strict_undefined: true
 
 #menulinks: [
-    #['/about', 'About'],
-    #['/research', 'Research'],
+    #['/', 'Home'],
+    #['/members', 'Members'],
     #]
 
 reflinks:
