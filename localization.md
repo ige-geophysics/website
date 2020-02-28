@@ -4,17 +4,14 @@ layout: page
 pager: true
 ---
 
-XXXXXXXXXX
-XXXXX
-XXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXX
-{.lead}
+Instituto de Geociências
 
-Sobre
-=====
+Universidade Estadual de Campinas - UNICAMP
 
-xxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxx
-xxxxxxx
+Rua Carlos Gomes, 250
 
+CEP: 13083-855
+
+Campinas, SP
+
+[Como chegar](https://goo.gl/maps/QXzKHZyqs7m)
