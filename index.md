@@ -6,10 +6,10 @@ content:
     - members
     - infra
     - research
-    - publications
+#    - publications
     - localization
     - contact
-    - more
+#    - more
 #    - geophysics
 tagline:
     Página em construção

@@ -15,8 +15,11 @@ keywords: 'science, geoscience, geophysics, geology'
 brand: "Laboratório de <strong>Geofísica</strong>"
 
 bootswatch: cosmo # null # flatly, yeti, lumen,...
+
 navbar_inverse: false
+
 bootstrap: 3.3.6
+
 navbar_right_items: 1
 
 # Fill out your Google Analytics ID here
@@ -30,38 +33,47 @@ ignore_patterns: [
     ".github_deploy_key.enc",
     "environment.yml",
     "requirements.txt",
+    "search.md"
     ]
 
 #strict_undefined: true
 
+#menulinks: [
+    #['/about', 'About'],
+    #['/research', 'Research'],
+    #]
+
 reflinks:
-    urubu:
-        url: http://urubu.jandecaluwe.com
-        title: Urubu
-    urubu_manual:
-        url: http://urubu.jandecaluwe.com/manual
-        title: Urubu Manual
-    urubu_quickstart_site:
-        url: http://urubu-quickstart.jandecaluwe.com
-        title: Urubu Quickstart site
-    jandecaluwe:
-        url: http://www.jandecaluwe.com
-        title: Jan Decaluwe
+    unicamp:
+        url: https://www.unicamp.br
+        title: Universidade Estatual de Campinas
+    ige_unicamp:
+        url: https://portal.ige.unicamp.br
+        title: Instituto de Geociências
+    geo_ige_unicamp:
+        url: https://www.ige.unicamp.br/geophysics
+        title: Laboratório de Geofísica
+    site_repo:
+        url: https://github.com/ige-geophysics/website
+        title: ige-geophysics/website
     content_license:
-        url: http://creativecommons.org/licenses/by-sa/3.0/
-        title: CC-BY-SA License
-    software_license:
-        url: http://www.gnu.org/licenses/agpl-3.0.txt
-        title: GNU Affero General Public License
-    markdown:
-        url: http://daringfireball.net/projects/markdown/
-        title: Markdown
-    jinja2:
-        url: http://jinja.pocoo.org
-        title: Jinja2
-    bootstrap:
-        url: http://getbootstrap.com
-        title: Bootstrap
-    bootswatch:
-        url: http://bootswatch.com
-        title: Bootswatch
+        url: http://creativecommons.org/licenses/by/4.0/
+        title: CC-BY License
+    #urubu:
+        #url: http://urubu.jandecaluwe.com
+        #title: Urubu
+    #software_license:
+        #url: http://www.gnu.org/licenses/agpl-3.0.txt
+        #title: GNU Affero General Public License
+    #markdown:
+        #url: http://daringfireball.net/projects/markdown/
+        #title: Markdown
+    #jinja2:
+        #url: http://jinja.pocoo.org
+        #title: Jinja2
+    #bootstrap:
+        #url: http://getbootstrap.com
+        #title: Bootstrap
+    #bootswatch:
+        #url: http://bootswatch.com
+        #title: Bootswatch
