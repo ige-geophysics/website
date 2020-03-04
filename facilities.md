@@ -1,5 +1,5 @@
 ---
-title: Infra
+title: Facilities
 layout: page
 pager: true
 ---
