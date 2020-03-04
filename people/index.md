@@ -1,5 +1,5 @@
 ---
-title: Members
+title: People
 layout: index
 dropdown: false
 order: date
