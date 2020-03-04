@@ -1,4 +1,4 @@
-name: "Nome do Laboratório"
+name: "Geophysics Lab"
 
 title: "<strong>GEOPHYSICS</strong>lab"
 
@@ -18,7 +18,7 @@ language: en
 
 keywords: 'science, geoscience, geophysics, geology'
 
-brand: "Laboratory of <strong>Geophysics</strong>"
+brand: "<strong>Geophysics</strong> Lab"
 
 bootswatch: cosmo # null # flatly, yeti, lumen,...
 
