@@ -53,12 +53,21 @@ reflinks:
     unicamp:
         url: https://www.unicamp.br
         title: Universidade Estatual de Campinas
+    unicamp_en:
+        url: https://www.unicamp.br/unicamp/english
+        title: The University of Campinas
     ige_unicamp:
         url: https://portal.ige.unicamp.br
         title: Instituto de Geociências
+    ige_unicamp_en:
+        url: https://portal.ige.unicamp.br/en
+        title: Institute of Geosciences
     geo_ige_unicamp:
         url: https://www.ige.unicamp.br/geophysics
         title: Laboratório de Geofísica
+    geo_ige_unicamp_en:
+        url: https://www.ige.unicamp.br/geophysics
+        title: Geophysics Lab
     site_repo:
         url: https://github.com/ige-geophysics/website
         title: ige-geophysics/website
