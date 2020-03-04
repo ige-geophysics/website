@@ -39,7 +39,8 @@ ignore_patterns: [
     ".github_deploy_key.enc",
     "environment.yml",
     "requirements.txt",
-    "search.md"
+    "search.md",
+    "research.md",
     ]
 
 #strict_undefined: true
