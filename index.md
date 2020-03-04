@@ -3,8 +3,8 @@ title: Laboratório de Geofísica
 layout: home
 content:
     - about
-    - members
-    - infra
+    - people
+    - facilities
     - research
     - localization
     - contact
