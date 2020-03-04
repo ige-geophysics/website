@@ -4,17 +4,8 @@ layout: page
 pager: true
 ---
 
-XXXXXXXXXX
-XXXXX
-XXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXX
-{.lead}
+**Interested in joining our laboratory?**
 
-Sobre
-=====
+Do you have questions about our research?
 
-xxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxx
-xxxxxxx
-
+Write an email to the laboratory coordinator [Prof. Dr. Emilson Pereira Leite](mailto:emilson@unicamp.br).
