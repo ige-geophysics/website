@@ -4,9 +4,9 @@ layout: page
 pager: true
 ---
 
-Instituto de Geociências
+[ige_unicamp_en]
 
-Universidade Estadual de Campinas - UNICAMP
+[unicamp_en] - UNICAMP
 
 Rua Carlos Gomes, 250
 
@@ -14,4 +14,4 @@ CEP: 13083-855
 
 Campinas, SP
 
-[Como chegar](https://goo.gl/maps/QXzKHZyqs7m)
+[Directions](https://goo.gl/maps/QXzKHZyqs7m)
