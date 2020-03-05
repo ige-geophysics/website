@@ -1,5 +1,5 @@
 ---
-title: "Aplicaçã da gamaespectrometria na correlação de afloramentos com perfis geofísicos de poços"
+title: "Aplicação da gamaespectrometria na correlação de afloramentos com perfis geofísicos de poços"
 title2:
 author: leite
 date: 2011-01-01
