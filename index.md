@@ -1,5 +1,5 @@
 ---
-title: Laboratório de Geofísica
+title: Geophysics Lab
 layout: home
 content:
     - about
@@ -9,5 +9,5 @@ content:
     - localization
     - contact
 tagline:
-    Página em construção
+    The Geophysics Lab provides computer resources and geophysical equipments to support research projects involving mineral and hydrocarbon exploration, impact crater modelling, energy resources and environmental problems.
 ---
