@@ -40,7 +40,7 @@ Professor of the [ige_unicamp_en] at the [unicamp_en], Brazil.
 
 ## Biography
 
-Professor Doutor MS-3.2 do Departamento de Geologia e Recursos Naturais do Instituto de Geociências da UNICAMP. Graduado em Geofísica pela Universidade de São Paulo (1997), mestre em Geofísica pela Universidade de São Paulo (2000) e doutor em Geofísica pela Universidade de São Paulo (2005), tendo realizado estágio no Departamento de Ciências Espaciais e da Terra e Engenharia da Universidade de York, Canadá. Tem experiência na área de Geofísica e atua principalmente nos seguintes temas: inversão de dados geofísicos; estudos geofísicos de estruturas de impacto; integração de dados geofísicos, de sensores remotos e geológicos aplicada à exploração mineral e de hidrocarbonetos.
+Professor at the Department of Geology and Natural Resources, Institute of Geosciences, UNICAMP. He has bachelor's, master's and PhD degrees in Geophysics from the University of São Paulo. During his PhD he completed an internship program at the Department of Space and Earth Sciences and Engineering at the University York, Canada. He has experience in the field of Geophysics and works mainly on the following topics: inversion of geophysical data; geophysical studies of impact structures; integration of geophysical, remote sensing and geological data applied to mineral and hydrocarbon exploration.
 
 ## Linhas de Pesquisa:
 * [Geotecnologias aplicadas ao estudo dos recursos naturais](https://portal.ige.unicamp.br/linha-de-pesquisa/geotecnologias-aplicadas-ao-estudo-dos-recursos-naturais)
