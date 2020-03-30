@@ -1,7 +1,7 @@
 ---
 title: About
-layout: page
-pager: true
+layout: simple_page
+pager: false
 ---
 
 XXXXXXXXXX
