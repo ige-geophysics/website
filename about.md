@@ -1,7 +1,8 @@
 ---
 title: About
-layout: sharing
+layout: page
 pager: true
+saveas: AAA.html
 ---
 
 XXXXXXXXXX
