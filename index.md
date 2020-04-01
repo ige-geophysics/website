@@ -3,7 +3,7 @@ title: Geophysics Lab
 layout: home
 content:
     - teste
-    - AAA
+    - about
     - people
     - facilities
     - research
@@ -12,3 +12,4 @@ content:
 tagline:
     The Geophysics Lab provides computer resources and geophysical equipments to support research projects involving mineral and hydrocarbon exploration, impact crater modelling, energy resources and environmental problems.
 ---
+

@@ -2,7 +2,6 @@
 title: About
 layout: page
 pager: true
-saveas: AAA.html
 ---
 
 XXXXXXXXXX
@@ -19,3 +18,8 @@ xxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxx
 xxxxxxx
 
+{% raw %}
+* `{# ... #}` for comments not included in the output
+* `{{ ... }}` for expressions, to print to the output
+* `{% ... %}` for statements
+{% endraw %}
