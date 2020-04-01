@@ -29,7 +29,7 @@ bootstrap: 3.3.6
 navbar_right_items: 1
 
 # Fill out your Google Analytics ID here
-#google_analytics: UA-48968311-4
+google_analytics: UA-162431918-1
 
 keep_files: [".nojekyll"]
 
