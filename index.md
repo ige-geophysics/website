@@ -2,8 +2,8 @@
 title: Geophysics Lab
 layout: home
 content:
-    - teste
-    - about
+#    - teste
+#    - about
     - people
     - facilities
     - research
