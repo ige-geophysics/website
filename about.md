@@ -2,6 +2,7 @@
 title: About
 layout: page
 pager: true
+tags: geofísica
 ---
 
 XXXXXXXXXX
