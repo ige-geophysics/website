@@ -23,6 +23,8 @@
     <link href="{{url_prefix + '/css/site.css'}}" rel="stylesheet" media="screen">
     <link href="{{url_prefix + '/css/syntax.css'}}" rel="stylesheet" media="screen">
 
+    <link href="{{url_prefix + '/css/fontawesome/css/all.css'}}" rel="stylesheet"> <!--load all styles -->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,6 +37,14 @@
   </head>
 
   <body>
+
+    <!--
+       -<i class="fas fa-user"></i> [> uses solid style <]
+       -<i class="far fa-user"></i> [> uses regular style <]
+       -<i class="fal fa-user"></i> [> uses light style <]
+       -[>brand icon<]
+       -<i class="fab fa-github-square"></i> [> uses brands style <]
+       -->
 
     <!-- Fixed navbar -->
     {% set navbar_style = "navbar-default" %}

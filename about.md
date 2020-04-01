@@ -2,6 +2,7 @@
 title: About
 layout: page
 pager: true
+tags: geofísica
 ---
 
 XXXXXXXXXX
@@ -18,3 +19,8 @@ xxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxx
 xxxxxxx
 
+{% raw %}
+* `{# ... #}` for comments not included in the output
+* `{{ ... }}` for expressions, to print to the output
+* `{% ... %}` for statements
+{% endraw %}
