@@ -4,18 +4,15 @@ layout: page
 pager: true
 ---
 
-
-{% from 'utils.html' import faaa %}
+{% from 'utils.html' import open, done, fa, figure %}
 
 # About
 
-<dl>
-{{ faaa('fa-coffee') }}
-{{ faaa('fa-cog') }}
-</dl>
+{{ fa('fa-coffee') }}
+{{ fa('fa-cog') }}
 
-{#
-  <i class="fas fa-user"></i> <!-- uses solid style -->
-  <!--brand icon-->
-  <i class="fab fa-github-square"></i> <!-- uses brands style -->
-#}
+{{ fa('github') }}
+
+{{ fa('github-alt', 'fa-2x') }}
+
+{{ figure('emilson.jpg', "Add a picture") }}
