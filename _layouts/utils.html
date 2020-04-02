@@ -1,7 +1,21 @@
 {# Utility functions for the templates #}
 
 
-{% macro faaa(name, class='') %}
-{# Utility for inserting font awesome icons with the 'Solid' style#}
-<i class="fas fa-{{name}} {{class}}"></i>
+{# task list icons #}
+{% set open = '<i class="fa fa-square-o"></i>' %}
+{% set done = '<i class="fa fa-check-square-o"></i>' %}
+
+{# general font awesome icon interface #}
+{% macro fa(name, class='') %}
+<i class="fa fa-{{name}} {{class}}"></i>
+{% endmacro %}
+
+{# figure support #}
+{% macro figure(fn, caption='') %}
+<figure>
+  <img src="/images/pic/{{fn}}" class="img-responsive" alt="{{caption}}">
+  {% if caption %}
+  <figcaption class="text-center">{{caption}}</figcaption>
+  {% endif %}
+</figure>
 {% endmacro %}
