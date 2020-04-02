@@ -2,11 +2,16 @@
 
 
 {# task list icons #}
-{% set open = '<i class="fa fa-square-o"></i>' %}
-{% set done = '<i class="fa fa-check-square-o"></i>' %}
+{% set open = '<i class="fas fa-square"></i>' %}
+{% set done = '<i class="fas fa-check-square"></i>' %}
 
 {# general font awesome icon interface #}
-{% macro fa(name, class='') %}
+{% macro fas(name, class='') %}
+<i class="fas fa-{{name}} {{class}}"></i>
+{% endmacro %}
+
+{# general font awesome icon interface #}
+{% macro fab(name, class='') %}
 <i class="fab fa-{{name}} {{class}}"></i>
 {% endmacro %}
 
