@@ -8,8 +8,9 @@ pager: true
 
 # About
 
-{{ fas('fa-coffee') }}
-{{ fas('fa-cog') }}
+{{ fas('coffee') }}
+{{ fas('cog') }}
+{{ fas('address-book') }}
 
 {{ fab('github') }}
 
