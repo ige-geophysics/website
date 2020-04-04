@@ -12,11 +12,11 @@ description: "Geophysical research and inovation"
 
 baseurl: geophysics
 
-author: Henrique B. Santos
+author: Henrique Bueno dos Santos
 
 language: en
 
-keywords: 'science, geoscience, geophysics, geology'
+keywords: 'science, geoscience, geophysics, geology, petroleum engineering, software'
 
 brand: "<strong>Geophysics</strong> Lab"
 
@@ -26,7 +26,7 @@ navbar_inverse: false
 
 bootstrap: 3.3.6
 
-navbar_right_items: 1
+navbar_right_items: 7
 
 # Fill out your Google Analytics ID here
 google_analytics: UA-162431918-1
