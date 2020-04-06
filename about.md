@@ -10,20 +10,35 @@ pager: false
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
+    <!--<li data-target="#demo" data-slide-to="2"></li>-->
   </ul>
 
   <!-- The slideshow -->
   <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <img src="/images/facilities/susceptibilimetro-magnetico.png" alt="Slide 0" width="1100" height="500">
-    </div>
-    <div class="carousel-item">
-      <img src="/images/facilities/susceptibilimetro-magnetico2.jpeg" alt="Slide 1" width="1100" height="500">
-    </div>
-    <div class="carousel-item">
-      <img src="/images/facilities/susceptibilimetro-magnetico3.jpeg" alt="Slide 2" width="1100" height="500">
-    </div>
+      <div class="item active">
+          <a href="/facilities.html" target="_blank">
+              <img class="carousel-image" src="/images/facilities/susceptibilimetro-magnetico.png" width="1100" height="500">
+          </a>
+          <div class="carousel-caption">
+             Teste 1
+          </div>
+      </div>
+      <div class="item">
+          <a href="/facilities.html" target="_blank">
+              <img class="carousel-image" src="/images/facilities/susceptibilimetro-magnetico2.jpeg" width="1100" height="500">
+          </a>
+          <div class="carousel-caption">
+              Teste 2
+          </div>
+      </div>
+      <div class="item">
+          <a href="/facilities.html" target="_blank">
+              <img class="carousel-image" src="/images/facilities/susceptibilimetro-magnetico3.jpeg" width="1100" height="500">
+          </a>
+          <div class="carousel-caption">
+              Teste 3
+          </div>
+      </div>
   </div>
 
   <!-- Left and right controls -->
@@ -37,4 +52,3 @@ pager: false
     </a>
 
 </div>
-
