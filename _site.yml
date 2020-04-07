@@ -20,13 +20,13 @@ keywords: 'science, geoscience, geophysics, geology, petroleum engineering, soft
 
 brand: "<strong>Geophysics</strong> Lab"
 
-bootswatch: cosmo # null # flatly, yeti, lumen,...
+bootswatch: flatly # cosmo # null # flatly, yeti, lumen,...
 
-navbar_inverse: false
+#navbar_inverse: false
 
 bootstrap: 4.4.1
 
-navbar_right_items: 7
+navbar_right_items: 1
 
 # Fill out your Google Analytics ID here
 google_analytics: UA-162431918-1
