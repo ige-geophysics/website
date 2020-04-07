@@ -24,7 +24,7 @@ bootswatch: cosmo # null # flatly, yeti, lumen,...
 
 navbar_inverse: false
 
-bootstrap: 3.3.6
+bootstrap: 4.4.1
 
 navbar_right_items: 7
 
