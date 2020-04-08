@@ -24,7 +24,7 @@ bootswatch: flatly # cosmo # null # flatly, yeti, lumen,...
 
 #navbar_inverse: false
 
-bootstrap: 4.4.1
+bootstrap: 4.4.1 # 3.3.7
 
 navbar_right_items: 1
 
@@ -41,6 +41,7 @@ ignore_patterns: [
     "requirements.txt",
     "search.md",
     "research.md",
+    "_layouts/nav.html"
     ]
 
 #strict_undefined: true
