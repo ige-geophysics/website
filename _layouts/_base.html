@@ -24,14 +24,16 @@
 
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" media="screen">-->
 
-    <link href="//netdna.bootstrapcdn.com/{{theme_path}}/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--<link href="//netdna.bootstrapcdn.com/{{theme_path}}/bootstrap.min.css" rel="stylesheet" media="screen">-->
 
     {% set url_prefix = '' %}
     {% if site.baseurl %}
     {%   set url_prefix = '/' + site.baseurl %}
     {% endif %}
+    <link href="{{url_prefix + '/css/bootstrap.css'}}" rel="stylesheet" media="screen">
+    <!--<link href="{{url_prefix + '/css/bootstrap.min.css'}}" rel="stylesheet" media="screen">-->
     <link href="{{url_prefix + '/css/site.css'}}" rel="stylesheet" media="screen">
-    <link href="{{url_prefix + '/css/syntax.css'}}" rel="stylesheet" media="screen">
+    <!--<link href="{{url_prefix + '/css/syntax.css'}}" rel="stylesheet" media="screen">-->
 
     <!-- icons -->
 
@@ -72,11 +74,17 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!--<script src="//netdna.bootstrapcdn.com/bootstrap/{{bootstrap}}/js/bootstrap.min.js"></script>-->
 
+    <!-- JS, jQuerry and Popper.js are necessary for Boostrap's JavaScript plugins-->
+    <!-- jQuery (JavaScript library) -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- Popper.js (Tooltip & Popover Positioning Engine) -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- Holder.js (client side image placeholders) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.6/holder.min.js"></script>
     <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/{{bootstrap}}/js/bootstrap.min.js"></script>
+    <!--<script src="//netdna.bootstrapcdn.com/bootstrap/{{bootstrap}}/js/bootstrap.min.js"></script>-->
+    <!--<script src="/js/bootstrap.min.js"></script>-->
+    <script src="/js/bootstrap.js"></script>
 
     {% block body_addon %}
     {% endblock %}
