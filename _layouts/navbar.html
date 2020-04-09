@@ -1,31 +1,54 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+    {% set navbar_style = "navbar-default" %}
+    {% if site.navbar_inverse %}
+    {%   set navbar_style = "navbar-inverse" %}
+    {% endif %}
+    {% set navbar_right_items = 1 %}
+    {% if site.navbar_right_items is defined%}
+    {%   set navbar_right_items = site.navbar_right_items %}
+    {% endif %}
+    {% set navbar_right_index = site.reflinks['/'].content|length - navbar_right_items %}
+
+
+<!--In Bootstrap v4.x .navbar-default is now .navbar-light   -->
+<nav class="navbar navbar-expand-lg {{navbar_style}} bg-light fixed-top">
+  <a class="navbar-brand" href="{{url_prefix + '/'}}">{{site.brand}}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+      {% block home %}
+      {% endblock %}
+      {% for item in site.reflinks['/'].content[:navbar_right_index] %}
+      {%   set context = '' %}
+      {%   if item.components|d and this.components[0] == item.components[0] %}
+      {%     set context = ' class="active"' %}
+      {%   endif %}
+      {%   if item.content|d and item.dropdown %}
+
+<!--      <li class="nav-item active">-->
+        <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
+      <!--</li>-->
+      <!--<li class="nav-item">-->
+        <!--<a class="nav-link" href="#">Link</a>-->
+      <!--</li>-->
+      <li {{context}} class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="{{item.url}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{item.title}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          {% for subitem in item.content %}
+          <a class="dropdown-item" href="{{subitem.url}}">{{subitem.title}}</a>
+          {% endfor %}
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      {% else %}
+      <li {{context}} class="nav-item">
+        <a class="nav-link" href="{{item.url}}" aria-disabled="true">{{item.title}}</a>
       </li>
+      {% endif %}
+      {% endfor %}
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
