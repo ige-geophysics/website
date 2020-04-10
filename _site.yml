@@ -20,9 +20,9 @@ keywords: 'science, geoscience, geophysics, geology, petroleum engineering, soft
 
 brand: "<strong>Geophysics</strong> Lab"
 
-bootswatch: flatly # cosmo # null # flatly, yeti, lumen,...
+bootswatch: cosmo # null # flatly, yeti, lumen,...
 
-#navbar_inverse: false
+navbar_inverse: false
 
 bootstrap: 4.4.1 # 3.3.7
 
