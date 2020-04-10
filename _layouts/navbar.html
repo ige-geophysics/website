@@ -1,6 +1,8 @@
-    {% set navbar_style = "navbar-default" %}
+    {# set navbar_style = "navbar-default" #}
+    {% set navbar_style = "navbar-light" %}
     {% if site.navbar_inverse %}
-    {%   set navbar_style = "navbar-inverse" %}
+    {#   set navbar_style = "navbar-inverse" #}
+    {%   set navbar_style = "navbar-dark" %}
     {% endif %}
     {% set navbar_right_items = 1 %}
     {% if site.navbar_right_items is defined%}
@@ -10,7 +12,11 @@
 
 
 <!--In Bootstrap v4.x .navbar-default is now .navbar-light   -->
-<nav class="navbar navbar-expand-lg {{navbar_style}} bg-light fixed-top">
+<!--<nav class="navbar navbar-expand-lg {{navbar_style}} bg-light fixed-top">-->
+<!-- <nav class="navbar navbar-expand-lg {{navbar_style}} bg-dark fixed-top"> -->
+{# <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"> #}
+  {# <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> #}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <a class="navbar-brand" href="{{url_prefix + '/'}}">{{site.brand}}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
