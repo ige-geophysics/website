@@ -4,9 +4,13 @@ layout: page
 pager: true
 ---
 
-{% from 'utils.html' import open, done, fas, fab, figure %}
+{% from 'utils.html' import open, done, fas, fab, far, figure %}
 
 # About
+
+{{ fas('envelope') }}
+{{ fab('envelope') }}
+{{ far('envelope') }}
 
 {{ fas('coffee') }}
 {{ fas('cog') }}
