@@ -6,20 +6,24 @@
 {% set done = '<i class="fas fa-check-square"></i>' %}
 
 {# general font awesome icon interface - Solid's style #}
-{% macro fas(name, class='') %}
-<i class="fas fa-{{name}} {{class}}"></i>
+{% macro fas(name, title='') %}
+<i class="fas fa-{{name}}" title="{{ title }}"></i>
 {% endmacro %}
 
 {# general font awesome icon interface - Brands' style #}
-{% macro fab(name, class='') %}
-<i class="fab fa-{{name}} {{class}}"></i>
+{% macro fab(name, title='') %}
+<i class="fab fa-{{name}}" title="{{ title }}"></i>
 {% endmacro %}
 
 {# general font awesome icon interface - Regular's style #}
-{% macro far(name, class='') %}
-<i class="far fa-{{name}} {{class}}"></i>
+{% macro far(name,title='') %}
+<i class="far fa-{{name}}" title="{{ title }}"></i>
 {% endmacro %}
 
+{# general Academicons icon interface #}
+{% macro ai(name,title='') %}
+<i class="ai ai-{{name}}" title="{{ title }}"></i>
+{% endmacro %}
 
 {# figure support #}
 {% macro figure(fn, caption='') %}
