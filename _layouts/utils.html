@@ -2,27 +2,27 @@
 
 
 {# task list icons #}
-{% set open = '<i class="fas fa-square"></i>' %}
-{% set done = '<i class="fas fa-check-square"></i>' %}
+{% set open = '<span class="fas fa-square"></span>' %}
+{% set done = '<span class="fas fa-check-square"></span>' %}
 
 {# general font awesome icon interface - Solid's style #}
 {% macro fas(name, title='') %}
-<i class="fas fa-{{name}}" title="{{ title }}"></i>
+<span class="fas fa-{{name}}" title="{{ title }}"></span>
 {% endmacro %}
 
 {# general font awesome icon interface - Brands' style #}
 {% macro fab(name, title='') %}
-<i class="fab fa-{{name}}" title="{{ title }}"></i>
+<span class="fab fa-{{name}}" title="{{ title }}"></span>
 {% endmacro %}
 
 {# general font awesome icon interface - Regular's style #}
 {% macro far(name,title='') %}
-<i class="far fa-{{name}}" title="{{ title }}"></i>
+<span class="far fa-{{name}}" title="{{ title }}"></span>
 {% endmacro %}
 
 {# general Academicons icon interface #}
 {% macro ai(name,title='') %}
-<i class="ai ai-{{name}}" title="{{ title }}"></i>
+<span class="ai ai-{{name}}" title="{{ title }}"></span>
 {% endmacro %}
 
 {# figure support #}
