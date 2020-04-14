@@ -11,7 +11,7 @@ orcid:
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Professor
-layout: page
+layout: person
 ---
 
 # *Professor*
@@ -23,7 +23,28 @@ layout: page
 ![test image size](../images/pic/emilson.jpg){:height="700px" width="400px"}-->
 <!---->
 
+
 ![test image size](../images/pic/emilson.jpg){:class="img-responsive":height="50%" width="50%"}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-7">
+            <img src="holder.js/300x200" class="rounded-circle">
+        </div>
+    </div>
+</div>
+
+<img src="holder.js/300x200" class="rounded-circle">
+
+<img src="../images/pic/emilson.jpg" class="rounded-circle">
+<img src="../images/pic/emilson.jpg" class="rounded-pill">
+
+<img src="../images/pic/emilson.jpg" class="rounded-circle-lg">
+<img src="../images/pic/emilson.jpg" class="rounded-lg">
+<img src="../images/pic/emilson.jpg" class="rounded-sm">
+
+<img src="holder.js/300x200">
 
 ## Info
 
@@ -47,3 +68,25 @@ Professor at the Department of Geology and Natural Resources, Institute of Geosc
 
 ## Áreas de Interesse:
 * [Geofísica Aplicada](https://portal.ige.unicamp.br/areas-de-interesse/geofisica-aplicada)
+
+
+<ul class="sitemap">
+{%- for item in sitemap recursive %}
+    <li><a href="{{ item.href|e }}">{{ item.title }}</a>
+    {%- if item.children -%}
+        <ul class="submenu">{{ loop(item.children) }}</ul>
+    {%- endif %}</li>
+{%- endfor %}
+</ul>
+
+{% set reply | wordwrap %}
+    You wrote:
+    {{ message }}
+{% endset %}
+
+<ul>
+{% for href, caption in [('index.html', 'Index'), ('about.html', 'About'),
+                         ('downloads.html', 'Downloads')] %}
+    <li><a href="{{ href }}">{{ caption }}</a></li>
+{% endfor %}
+</ul>
