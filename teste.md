@@ -20,7 +20,17 @@ pager: true
 {{ ai('researcherid', 'ResearcherID') }}: ResearcherID
 {{ ai('orcid', 'ORCID') }}: ORCID
 
+The source code to build this site is available at {{ fab('github') }}.
+Built using Urubu and Bootstrap with icons by {{ fab('font-awesome', "Fonte Awesome")}} and Academicons.
+Except were noted, all content is available under the CC-BY License.
 
+Scientific research made with {{ fas('heart') }}, {{ fas('music') }} and lots of {{ fas('coffee') }}
+
+{{ fas('code') }}
+{{ fas('code-branch') }}
+{{ fas('laptop-code') }}
+{{ fas('file-code') }}
+{{ fas('terminal') }}
 
 {{ fas('external-link-alt', 'Personal website') }}: External link / Personal website.
 {{ fas('door-closed', 'Room number') }}: door-closed.
@@ -37,6 +47,8 @@ pager: true
 {{ fas('coffee') }}
 {{ fas('cog') }}
 {{ fas('address-book') }}
+
+{{ fab('font-awesome', "Fonte Awesome")}}
 
 {{ fab('github') }}
 
