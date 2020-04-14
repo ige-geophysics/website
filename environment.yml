@@ -3,10 +3,10 @@ channels:
     - conda-forge
     - defaults
 dependencies:
-    - python=3.6
+    - python=3.7
     - pip
     - doctr
-    - jinja2>=2.7
+    - jinja2>=2.11
     - beautifulsoup4
     - markdown<3
     - pygments
