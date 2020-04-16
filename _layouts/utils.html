@@ -1,0 +1,36 @@
+{# Utility functions for the templates #}
+
+
+{# task list icons #}
+{% set open = '<span class="fas fa-square"></span>' %}
+{% set done = '<span class="fas fa-check-square"></span>' %}
+
+{# general font awesome icon interface - Solid's style #}
+{% macro fas(name, title='') %}
+<span class="fas fa-{{name}}" title="{{ title }}"></span>
+{% endmacro %}
+
+{# general font awesome icon interface - Brands' style #}
+{% macro fab(name, title='') %}
+<span class="fab fa-{{name}}" title="{{ title }}"></span>
+{% endmacro %}
+
+{# general font awesome icon interface - Regular's style #}
+{% macro far(name,title='') %}
+<span class="far fa-{{name}}" title="{{ title }}"></span>
+{% endmacro %}
+
+{# general Academicons icon interface #}
+{% macro ai(name,title='') %}
+<span class="ai ai-{{name}}" title="{{ title }}"></span>
+{% endmacro %}
+
+{# figure support #}
+{% macro figure(fn, caption='') %}
+<figure>
+  <img src="/images/pic/{{fn}}" class="img-responsive" alt="{{caption}}">
+  {% if caption %}
+  <figcaption class="text-center">{{caption}}</figcaption>
+  {% endif %}
+</figure>
+{% endmacro %}
