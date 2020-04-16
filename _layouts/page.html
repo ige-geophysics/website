@@ -6,17 +6,19 @@
 
   {% block breadcrumbs %}
   {% if this.breadcrumbs %}
+  <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li><a href="{{url_prefix + '/'}}">Home</a></li>
+    <li class="breadcrumb-item"><a href="{{url_prefix + '/'}}">Home</a></li>
       {% for bc in this.breadcrumbs[:-1] %}
-      <li><a href="{{bc.url}}">{{bc.title}}</a></li>
+      <li class="breadcrumb-item"><a href="{{bc.url}}">{{bc.title}}</a></li>
       {% endfor %}
-      <li class="active">{{this.breadcrumbs[-1].title}}</li>
+      <li class="breadcrumb-item active" aria-current="page">{{this.breadcrumbs[-1].title}}</li>
   </ol>
+  </nav>
   {% endif %}
   {% endblock %}
 
-  <div class="page-header">
+  <div class="pb-2 mt-4 mb-2 border-bottom">
     {% block title %}
     <h1>{{this.title}}</h1>
     {% endblock %}
@@ -30,12 +32,20 @@
       {{this.body}}
     </main>
     {% if this.pager %}
-    <ul class="pager">
+    <ul class="pagination">
       {% if this.prev %}
-      <li class="previous"><a href="{{this.prev.url}}">&larr; {{this.prev.title}}</a></li>
+      <li class="page-item">
+          <a class="page-link" href="{{this.prev.url}}" {{this.prev.title}} aria-label="Previous">
+              <span aria-hidden="true">&larr;</span>
+          </a>
+      </li>
       {% endif %}
       {% if this.next %}
-      <li class="next"><a href="{{this.next.url}}">{{this.next.title}} &rarr;</a></li>
+      <li class="page-item">
+          <a class="page-link" href="{{this.next.url}}" {{this.next.title}} aria-label="Next">
+              <span aria-hidden="true">&rarr;</span>
+          </a>
+      </li>
       {% endif %}
     </ul>
     {% endif %}
