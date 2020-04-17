@@ -31,3 +31,4 @@ deploy:
     script: doctr deploy . --built-docs _build --key-path .github_deploy_key.enc --deploy-repo ige-geophysics/ige-geophysics.github.io
     on:
       branch: master
+    edge: true
