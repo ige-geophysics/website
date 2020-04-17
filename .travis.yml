@@ -29,6 +29,5 @@ deploy:
   # Push the built HMTL to Github pages
   - provider: script
     scipt: doctr deploy . --built-docs _build --key-path .github_deploy_key.enc --deploy-repo ige-geophysics/ige-geophysics.github.io
-    skip_cleanup: true
     on:
       branch: master
