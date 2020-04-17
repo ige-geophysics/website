@@ -2,7 +2,7 @@
 os: linux
 dist: xenial
 language: python
-python: "3.6"
+python: "3.7"
 notifications:
   email: false
 
@@ -28,7 +28,6 @@ script:
 deploy:
   # Push the built HMTL to Github pages
   - provider: script
-    scipt: doctr deploy . --built-docs _build --key-path .github_deploy_key.enc --deploy-repo ige-geophysics/ige-geophysics.github.io
-    skip_cleanup: true
+    script: doctr deploy . --built-docs _build --key-path .github_deploy_key.enc --deploy-repo ige-geophysics/ige-geophysics.github.io
     on:
       branch: master
