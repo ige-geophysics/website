@@ -3,10 +3,10 @@ title: Geophysics Lab
 layout: home
 order: title
 content:
-#    - teste
-#    - about
+    - teste
+    - about
     - people
-#    - facilities
+    - facilities
     - research
     - localization
     - contact
