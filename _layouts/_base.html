@@ -2,14 +2,17 @@
 <html lang="{{ site.language }}">
 
   <head>
+    {% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    {% block meta %}
     <title>{{this.title}}</title>
     <meta name="author" content="{{ site.author }}"/>
     {% if site.keywords %}
         <meta name="keywords" content="{{ site.keywords }}"/>
     {% endif %}
+    {% endblock meta %}
 
     <!-- Bootstrap -->
     {% set bootstrap = "3.1.1" %}
@@ -62,8 +65,11 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     {% include 'analytics.html' %}
+
     {% block head_addon %}
     {% endblock %}
+
+    {% endblock head %}
   </head>
 
   <body>
@@ -74,6 +80,7 @@
     {% block body %}
     {% endblock %}
 
+    {% block javascript_includes %}
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
@@ -91,6 +98,7 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/{{bootstrap}}/js/bootstrap.min.js"></script>
     <!--<script src="/js/bootstrap.min.js"></script>-->
     <!--<script src="/js/bootstrap.js"></script>-->
+    {% endblock javascript_includes %}
 
     {% block body_addon %}
     {% endblock %}
