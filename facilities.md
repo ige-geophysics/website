@@ -12,6 +12,8 @@ pager: true
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
     </ol>
     <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
       <div class="carousel-item active">
@@ -35,6 +37,21 @@ pager: true
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </div>
       </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico2.jpeg";text=Fourth slide" alt="Fourth slide" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fourth slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico3.jpeg";text=Fifth slide" alt="Fifth slide" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fifth slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
