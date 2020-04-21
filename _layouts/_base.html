@@ -2,17 +2,23 @@
 <html lang="{{ site.language }}">
 
   <head>
-    {% block head %}
-    <meta charset="utf-8">
+    {#{% block head %}#}
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% block meta %}
-    <title>{{this.title}}</title>
-    <meta name="author" content="{{ site.author }}"/>
-    {% if site.keywords %}
+        {#<title>{{this.title}}</title>#}
+
+        <meta name="author" content="{{ site.author }}"/>
+
+        {% if site.keywords %}
         <meta name="keywords" content="{{ site.keywords }}"/>
-    {% endif %}
+        {% endif %}
+
     {% endblock meta %}
+
+    <title>{% block title %}{{this.title}}{% endblock title %}</title>
+    {#<link rel="shortcut icon" href="/images/favicon.png">#}
 
     <!-- Bootstrap -->
     {% set bootstrap = "3.1.1" %}
@@ -69,7 +75,7 @@
     {% block head_addon %}
     {% endblock %}
 
-    {% endblock head %}
+    {#{% endblock head %}#}
   </head>
 
   <body>
