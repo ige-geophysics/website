@@ -11,7 +11,9 @@ orcid:
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Professor
-layout: page
+picture: gelvam.jpg
+layout: person
+teaser: Write something here
 ---
 
 # *Professor*
