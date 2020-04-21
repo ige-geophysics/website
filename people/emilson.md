@@ -13,7 +13,7 @@ location: Campinas, Brazil
 position: Professor
 picture: emilson.jpg
 layout: person
-teaser: Write something here
+teaser: Lab's coordinator
 ---
 
 # *Professor*

@@ -1,4 +1,5 @@
 {% extends "_base.html" %}
+{#{% extends "page.html" %}#}
 
 {% from 'utils.html' import fas %}
 
@@ -19,24 +20,40 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-7 col-md-offset-2" role="main">
-    <main>
+    {#<div class="col-md-7 col-md-offset-2" role="main">#}
+    {#<div class="col-md-4" role="main">#}
+    {#<div class="col-sm-4 col-md-4">#}
+    {#<div class="col">#}
+    {#<main>#}
+
       {% for item in this.content %}
+        {#<div class="row">#}
+        <div class="col-md-4">
+
+        <a href="{{item.url}}">
+
         {% if item.picture is defined %}
-            <img class="rounded-circle" src="/images/pic/{{item.picture}}"
-            style=" max-width:900%; max-height: 600px !important;"></img>
+            {#<img class="img-responsive" src="/images/pic/{{item.picture}}" height="50%" width="50%"></img>#}
+            {#<img class="rounded-circle" src="/images/pic/{{item.picture}}" style=" max-width:900px; max-height: 600px !important;"></img>#}
+            <img class="rounded-pill" src="/images/pic/{{item.picture}}" style=" max-width:130px"></img>
         {% else %}
             <span class="fas fa-user-astronaut fa-10x"></span>
         {% endif %}
-      <h4><a href="{{item.url}}">{{item.title}}</a>
+
+        <h4>{{item.title}}</h4>
         {% if item.date|d %}
-        <small>{{item.date|dateformat}}</small></h4>
+            <h4><small>{{item.date|dateformat}}</small></h4>
         {% endif %}
-      </h4>
-      <p>{{item.teaser}}</p>
+          <p>{{item.position}}</p>
+          <p>{{item.institution}}</p>
+          {% if item.teaser is defined %}
+              <p>{{item.teaser}}</p>
+          {% endif %}
+          </a>
+          </div>
+
       {% endfor %}
-    </div>
-  </main>
+  {#</main>#}
   </div>
 </div>
 
