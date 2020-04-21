@@ -1,0 +1,48 @@
+{% extends "_base.html" %}
+
+{% from 'utils.html' import open, done, fas, fab, far, ai, figure %}
+
+{% block body %}
+
+{% block jumbotron %}
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h1>{{this.title}}</h1>
+          <p>{{this.abstract}}</p>
+       </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7 col-md-offset-2" role="main">
+    <main>
+      {% for item in this.content %}
+        {% if item.picture is defined %}
+            <img class="rounded-circle" src="/images/pic/{{item.picture}}"></img>
+        {% else %}
+            <span class="fas fa-user-astronaut fa-10x"></span>
+        {% endif %}
+      <h4><a href="{{item.url}}">{{item.title}}</a>
+        {% if item.date|d %}
+        <small>{{item.date|dateformat}}</small></h4>
+        {% endif %}
+      </h4>
+      <p>{{item.teaser}}</p>
+      {% endfor %}
+    </div>
+  </main>
+  </div>
+</div>
+
+Quando não houver foto disponível...
+
+{{ fas('user fa-10x', 'usuário 1') }}
+{{ fas('user-circle fa-10x', 'usuário 2') }}
+{{ fas('user-astronaut fa-10x', 'usuário 3') }}
+
+{% endblock %}
