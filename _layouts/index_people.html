@@ -1,6 +1,6 @@
 {% extends "_base.html" %}
 
-{% from 'utils.html' import open, done, fas, fab, far, ai, figure %}
+{% from 'utils.html' import fas %}
 
 {% block body %}
 
@@ -23,7 +23,8 @@
     <main>
       {% for item in this.content %}
         {% if item.picture is defined %}
-            <img class="rounded-circle" src="/images/pic/{{item.picture}}"></img>
+            <img class="rounded-circle" src="/images/pic/{{item.picture}}"
+            style=" max-width:900%; max-height: 600px !important;"></img>
         {% else %}
             <span class="fas fa-user-astronaut fa-10x"></span>
         {% endif %}
@@ -39,7 +40,8 @@
   </div>
 </div>
 
-Quando não houver foto disponível...
+
+<p> Usar algum dos ícones abaixo quando não houver foto disponível... </p>
 
 {{ fas('user fa-10x', 'usuário 1') }}
 {{ fas('user-circle fa-10x', 'usuário 2') }}

@@ -11,6 +11,7 @@ orcid:
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Professor
+picture: emilson.jpg
 layout: person
 teaser: Write something here
 ---
