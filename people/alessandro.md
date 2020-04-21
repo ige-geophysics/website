@@ -13,7 +13,6 @@ location: Campinas, Brazil
 position: Professor
 picture: alessandro.jpg
 layout: person
-teaser: Write something here
 ---
 
 # *Professor*

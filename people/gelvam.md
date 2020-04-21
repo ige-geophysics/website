@@ -13,7 +13,6 @@ location: Campinas, Brazil
 position: Professor
 picture: gelvam.jpg
 layout: person
-teaser: Write something here
 ---
 
 # *Professor*
