@@ -1,15 +1,178 @@
 {% extends "page.html" %}
 
+{% from "utils.html" import fas, fabi, ai %}
 
 {% block page %}
 {% endblock %}
 
-{% block body %}
+{% block title %}
+    <div class="row">
+        <div class="col-xs-4 col-sm-3 col-md-2">
+            {% if this.picture is defined %}
+                <img class="rounded-pill" src="/images/pic/{{this.picture}}"></img>
+            {% else %}
+                <span class="fas fa-user-astronaut fa-10x"></span>
+            {% endif %}
+        </div>
+        <div class="col-xs-8 col-sm-9 col-md-10">
+            <h1>{{ this.title }}</h1>
+            <h2>
+                <em>{{ this.position }}</em>
+            </h2>
+        </div>
+    </div>
+{% endblock %}
 
-{{ super() }}
+    {#<div class="col-md-8">#}
+        {#{% block right %}#}
+            {#{{ this.body }}#}
+        {#{% endblock %}#}
+    {#</div>#}
 
-{#<div class="container">#}
-    {#{{this.body}}#}
-{#</div>#}
+
+{% block content %}
+
+<div class="row">
+    <div class="col content">
+
+        <h2>Info</h2>
+
+        <ul class="fa-ul">
+
+{% block left %}
+    {% if this.period is defined %}
+        <li>
+            {{ fas("calendar", "Duration") }}
+            {{this.period}}
+        </li>
+    {% endif %}
+    {% if this.institution is defined %}
+        <li>
+            {{ fas("university", "Institution") }}
+            {{this.institution}}
+        </li>
+    {% endif %}
+    {% if this.location is defined %}
+        <li>
+            {{ fas("map-marker", "Location") }}
+            {{this.location}}
+        </li>
+    {% endif %}
+    {% if this.advisor is defined %}
+        <li>
+            {{ fas("graduation-cap", "Advisor") }}
+            Advisor: {{ author_list(this.advisor, site, link=True) }}
+        </li>
+    {% endif %}
+    {% if this.coadvisor is defined %}
+        <li>
+            {{ fas("graduation-cap", "Co-advisor") }}
+            Co-advisor: {{ author_list(this.coadvisor, site, link=True) }}
+        </li>
+    {% endif %}
+    {% if this.orcid is defined %}
+        <li>
+            {{ ai("orcid", "ORCID") }}
+            ORCID: <a href="http://orcid.org/{{this.orcid}}">{{this.orcid}}</a>
+        </li>
+    {% endif %}
+    {% if this.researcherid is defined %}
+        <li>
+            {{ fas("researcherid", "ResearcherID") }}
+            ResearcherID: <a href="http://www.researcherid.com/rid/{{this.researcherid}}">{{this.researcherid}}</a>
+        </li>
+    {% endif %}
+    {% if this.impactstory is defined %}
+        <li>
+            {{ ai("impactstory", "ImpactStory") }}
+            <a href="https://impactstory.org/u/{{this.impactstory}}">ImpactStory (online impact)</a>
+        </li>
+    {% endif %}
+    {% if this.scholar is defined %}
+        <li>
+            {{ ai("google-scholar", "Google Scholar") }}
+            <a href="{{this.scholar}}">Google Scholar</a>
+        </li>
+    {% endif %}
+    {% if this.lattes is defined %}
+        <li>
+            {{ ai("lattes", "Currículo Lattes") }}
+            <a href="{{this.lattes}}">Currículo Lattes</a>
+        </li>
+    {% endif %}
+    {% if this.researchgate is defined %}
+        <li>
+            {{ ai("researchgate", "ResearchGate") }}
+            <a href="{{this.researchgate}}">ResearchGate</a>
+        </li>
+    {% endif %}
+    {% if this.github is defined %}
+        <li>
+            {{ fas("github", "Github") }}
+            Github: <a href="http://github.com/{{this.github}}">{{this.github}}</a>
+        </li>
+    {% endif %}
+    {% if this.email is defined %}
+        <li>
+            {{ fas("envelope", "email") }}
+            e-mail{% if this.email2 is defined %} (primary){% endif %}:
+            <a href="mailto:{{this.email}}">{{this.email}}</a>
+        </li>
+    {% endif %}
+    {% if this.email2 is defined %}
+        <li>
+            {{ fas("envelope", "email") }}
+            e-mail (secondary): <a href="mailto:{{this.email2}}">{{this.email2}}</a>
+        </li>
+    {% endif %}
+    {% if this.website is defined %}
+        <li>
+            {{ fas("external-link-square-alt", "Personal website") }}
+            <a href="{{this.website}}">{{this.website.split("//")[1]}}</a>
+        </li>
+    {% endif %}
+{% endblock %}
+</div>
+</div>
+
+<div class="col content" role="main">
+    <main>
+      {{this.body}}
+    </main>
+</div>
 
 {% endblock %}
+
+{#{% block info %}#}
+{#{{ fas('envelope', 'email') }}: email.#}
+{#{{ fas('phone', 'Phone number') }}: phone.#}
+{#{{ fas('map-marker', 'Location') }}: location.#}
+{#{{ fas('door-open', 'Room number') }}: door-open.#}
+{#{{ fas('external-link-square-alt', 'Personal website') }}: External link / Personal website.#}
+
+{#{{ ai('lattes', 'Currículo Lattes') }}: CV Lattes#}
+{#{{ ai('researchgate', 'Research Gate') }}: Research Gate#}
+{#{{ ai('google-scholar', 'Google Scholar') }}: Google Scholar#}
+{#{{ ai('researcherid', 'ResearcherID') }}: ResearcherID#}
+{#{{ ai('orcid', 'ORCID') }}: ORCID#}
+{#{% endblock%}#}
+
+
+{#    <div class="col-md-8">#}
+        {#{% block right %}#}
+            {#{{ this.body }}#}
+        {#{% endblock %}#}
+    {#</div>#}
+
+{#{% block body %}#}
+
+{#{{ super() }}#}
+
+{% block sidebar %}
+{% endblock %}
+
+{#[>[><div class="container"><]<]#}
+    {#[>[>{{this.body}}<]<]#}
+{#[>[></div><]<]#}
+
+{#{% endblock %}#}
