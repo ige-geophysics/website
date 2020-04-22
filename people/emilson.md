@@ -2,12 +2,17 @@
 title: Emilson Pereira Leite
 date: 2020-01-01
 head: true
-lattes:
+coord: true
+lattes: http://lattes.cnpq.br/6990571435444630
+fapesp: https://bv.fapesp.br/pt/pesquisador/39072/emilson-pereira-leite/
 email: emilson@unicamp.com
-scholar:
-researcherid:
-researchgate:
-orcid:
+email2: emilson@ige.unicamp.com
+website: https://portal.ige.unicamp.br/docente/emilson-pereira-leite
+scholar: https://scholar.google.com.br/citations?hl=pt-BR&oi=ao&user=0lrDQg8AAAAJ
+researcherid: D-3863-2012
+researchgate: https://www.researchgate.net/profile/Emilson_Leite
+orcid: 0000-0003-1691-6243
+scopus: 23027995000
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Professor
@@ -16,7 +21,7 @@ layout: person
 teaser: Lab's coordinator
 ---
 
-# *Professor*
+<!--# *Professor*-->
 
 <!--Diferentes formas de ajustar o tamanho da imagem-->
 <!--![Emilson](../images/pic/emilson.jpg)
@@ -26,7 +31,7 @@ teaser: Lab's coordinator
 <!---->
 
 
-![test image size](../images/pic/emilson.jpg){:class="img-responsive":height="50%" width="50%"}
+<!--![test image size](../images/pic/emilson.jpg){:class="img-responsive":height="50%" width="50%"}-->
 
 
 <!--
