@@ -128,7 +128,7 @@
     {% if this.mendeley is defined %}
         <li>
             {{ fab("mendeley", "Mendeley") }}
-            <a href="https://www.mendeley.com/profiles/{{this.impactstory}}">Mendeley</a>
+            <a href="https://www.mendeley.com/profiles/{{this.mendeley}}">Mendeley</a>
         </li>
     {% endif %}
     {% if this.scholar is defined %}
@@ -155,6 +155,12 @@
         <li>
             {{ ai("researchgate", "ResearchGate") }}
             <a href="{{this.researchgate}}">ResearchGate</a>
+        </li>
+    {% endif %}
+    {% if this.linkedin is defined %}
+        <li>
+            {{ fab("linkedin", "LinkedIn") }}
+            <a href="{{this.linkedin}}">LinkedIn</a>
         </li>
     {% endif %}
     {% if this.github is defined %}
