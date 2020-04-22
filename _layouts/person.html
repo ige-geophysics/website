@@ -7,9 +7,11 @@
 
 {% block title %}
     <div class="row">
+        {#<div class="col-xs-4 col-sm-3 col-md-2">#}
         <div class="col-xs-4 col-sm-3 col-md-2">
             {% if this.picture is defined %}
-                <img class="rounded-pill" src="/images/pic/{{this.picture}}"></img>
+                {#<img class="rounded-pill" src="/images/pic/{{this.picture}}"></img>#}
+                <img class="rounded-pill" src="/images/pic/{{this.picture}}" style="max-width:130px"></img>
             {% else %}
                 <span class="fas fa-user-astronaut fa-10x"></span>
             {% endif %}
@@ -29,15 +31,22 @@
         {#{% endblock %}#}
     {#</div>#}
 
+{#<div class="col content" role="main">#}
+{#<div class="col-xs-8 col-sm-9 col-md-10 content" role="main">#}
 
 {% block content %}
 
+{# PARA LEMBRAR #}
+{# .col-4 .col-sm-4 .cold-md-4 .col-lg-4 .col-xl-4 #}
+
 <div class="row">
-    <div class="col content">
+    {#<div class="col content" role="main">#}
+    {#<div class="col-xs-4 col-sm-3 col-md-2">#}
+    <div class="col-md-4">
 
         <h2>Info</h2>
 
-        <ul class="fa-ul">
+        <ul class="fa-ul" style="margin-left:0em">
 
 {% block left %}
     {% if this.period is defined %}
@@ -189,14 +198,17 @@
         </li>
     {% endif %}
 {% endblock %}
-</div>
-</div>
+        </ul>
+    </div>
 
-<div class="col content" role="main">
+{#<div class="col content" role="main">#}
+{#<div class="col-xs-8 col-sm-9 col-md-10" role="main">#}
+<div class="col-md-8" role="main">
     <main>
       {{this.body}}
     </main>
 </div>
+</div> <!-- fecha o row -->
 
 {% endblock %}
 
