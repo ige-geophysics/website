@@ -1,6 +1,6 @@
 {% extends "page.html" %}
 
-{% from "utils.html" import fas, fabi, ai %}
+{% from "utils.html" import fas, fab, ai %}
 
 {% block page %}
 {% endblock %}
@@ -52,10 +52,34 @@
             {{this.institution}}
         </li>
     {% endif %}
+    {% if this.department is defined %}
+        <li>
+            {{ fas("building", "Department") }}
+            Department:
+            {% if this.department_url is defined %}
+                <a href="{{this.department_url}}">{{this.department}}</a>
+            {% else %}
+                {{this.department}}
+            {% endif %}
+        </li>
+    {% endif %}
     {% if this.location is defined %}
         <li>
             {{ fas("map-marker", "Location") }}
             {{this.location}}
+        </li>
+    {% endif %}
+    {% if this.room is defined %}
+        <li>
+            {{ fas("door-open", "Room number") }}
+            Room: {{this.room}}
+        </li>
+    {% endif %}
+    {% if this.phone is defined %}
+        <li>
+            {{ fas("phone", "Phone number") }}
+            Phone number: <a href="tel:{{this.phone}}">{{this.phone}}</a>
+            {#Phone number: <a href="callto:{{this.phone}}">{{this.phone}}</a>#}
         </li>
     {% endif %}
     {% if this.advisor is defined %}
@@ -78,14 +102,33 @@
     {% endif %}
     {% if this.researcherid is defined %}
         <li>
-            {{ fas("researcherid", "ResearcherID") }}
+            {{ ai("researcherid", "Web of Science ResearcherID") }}
             ResearcherID: <a href="http://www.researcherid.com/rid/{{this.researcherid}}">{{this.researcherid}}</a>
+        </li>
+    {% endif %}
+    {% if this.publons is defined %}
+        <li>
+            {{ ai("publons", "Publons") }}
+            Publons: <a href="https://publons.com/researcher/{{this.publons}}">{{this.publons}}</a>
+        </li>
+    {% endif %}
+    {% if this.scopus is defined %}
+        <li>
+            {{ fas("barcode", "Scopus") }}
+            {#Scopus: {{this.scopus}}#}
+            Scopus: <a href="https://www.scopus.com/authid/detail.uri?authorId={{this.scopus}}">{{this.scopus}}</a>
         </li>
     {% endif %}
     {% if this.impactstory is defined %}
         <li>
             {{ ai("impactstory", "ImpactStory") }}
             <a href="https://impactstory.org/u/{{this.impactstory}}">ImpactStory (online impact)</a>
+        </li>
+    {% endif %}
+    {% if this.mendeley is defined %}
+        <li>
+            {{ fab("mendeley", "Mendeley") }}
+            <a href="https://www.mendeley.com/profiles/{{this.impactstory}}">Mendeley</a>
         </li>
     {% endif %}
     {% if this.scholar is defined %}
@@ -100,6 +143,14 @@
             <a href="{{this.lattes}}">Currículo Lattes</a>
         </li>
     {% endif %}
+    {% if this.fapesp is defined %}
+        <li>
+            {#{{ ai("fapesp", "BV/CDi FAPESP") }}#}
+            {#{{ fas("id-badge", "BV/CDi FAPESP") }}#}
+            {{ fas("chart-bar", "BV/CDi FAPESP") }}
+            <a href="{{this.fapesp}}">BV/CDi FAPESP</a>
+        </li>
+    {% endif %}
     {% if this.researchgate is defined %}
         <li>
             {{ ai("researchgate", "ResearchGate") }}
@@ -108,7 +159,7 @@
     {% endif %}
     {% if this.github is defined %}
         <li>
-            {{ fas("github", "Github") }}
+            {{ fab("github", "Github") }}
             Github: <a href="http://github.com/{{this.github}}">{{this.github}}</a>
         </li>
     {% endif %}
