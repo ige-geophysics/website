@@ -33,21 +33,31 @@ layout: person
 teaser: Lab's coordinator
 ---
 
-
-
-## About
+# About
 
 Professor of the [ige_unicamp_en] at the [unicamp_en], Brazil.
 
-## Biography
+# Biography
 
-Professor at the [drgn_ige_unicamp_en], [ige_unicamp_en], [unicamp_en]. He has bachelor's, master's and PhD degrees in Geophysics from the [usp_en]. During his PhD he completed an internship program at the [Department of Space and Earth Sciences and Engineering](https://esse.lassonde.yorku.ca/) at the [University York](https://www.yorku.ca/), Canada. He has experience in the field of Geophysics and works mainly on the following topics: inversion of geophysical data; geophysical studies of impact structures; integration of geophysical, remote sensing and geological data applied to mineral and hydrocarbon exploration.
+Professor at the [drgn_ige_unicamp_en], [ige_unicamp_en], [unicamp_en].
+He has bachelor's, master's and PhD degrees in Geophysics from the [usp_en].
+During his PhD he completed an internship program at the
+[Department of Space and Earth Sciences and Engineering](https://esse.lassonde.yorku.ca/)
+at the [University York](https://www.yorku.ca/), Canada.
+He has experience in the field of Geophysics and works mainly on the following
+topics: inversion of geophysical data; geophysical studies of impact
+structures; integration of geophysical, remote sensing and geological data
+applied to mineral and hydrocarbon exploration.
 
-## Research lines:
+# Research lines
+
 <!--* [Geotecnologias aplicadas ao estudo dos recursos naturais](https://portal.ige.unicamp.br/linha-de-pesquisa/geotecnologias-aplicadas-ao-estudo-dos-recursos-naturais)-->
+
 * [Geotechnologies Applied to the Study of Natural Resources](https://portal.ige.unicamp.br/en/linha-de-pesquisa/geotechnologies-applied-study-natural-resources)
 
 
-## Areas of interest:
+# Areas of interest
+
 <!--* [Geofísica Aplicada](https://portal.ige.unicamp.br/areas-de-interesse/geofisica-aplicada)-->
+
 * [Applied Geophysics](https://portal.ige.unicamp.br/en/areas-interest/applied-geophysics)
