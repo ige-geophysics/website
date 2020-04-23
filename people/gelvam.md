@@ -24,14 +24,14 @@ researchgate: https://www.researchgate.net/profile/Gelvam_Hartmann
 #mendeley: gelvam-hartmann
 mendeley: gelvam-hartmann2
 github: gelvam
-linkedin:
+#linkedin:
 loop: https://loop.frontiersin.org/people/87611/overview
 email: gelvam@unicamp.com
 email2: gelvam@ige.unicamp.com
 website: https://portal.ige.unicamp.br/docente/gelvam-andre-hartmann
 picture: gelvam.jpg
 layout: person
-teaser: Lab header
+teaser: Lab head
 ---
 
 # About
@@ -40,12 +40,43 @@ Professor of the [ige_unicamp_en] at the [unicamp_en], Brazil.
 
 # Biography
 
-Professor doutor no Departamento de Geologia e Recursos Naturais do Instituto de Geociências, Universidade Estadual de Campinas. Possui graduação em Física (2001), mestrado (2005) e doutorado (2010) em Geofísica pela Universidade de São Paulo, com estágio sanduíche durante o doutorado no Institut de Physique du Globe de Paris. Efetuou dois estágios de pós-doutorado em Geofísica na Universidade de São Paulo (2013) e no Observatório Nacional (2016). Desenvolve pesquisas em geomagnetismo, arqueomagnetismo, paleointensidade, magnetismo ambiental e magnetismo de rochas.
+Professor at the [drgn_ige_unicamp_en], [ige_unicamp_en], [unicamp_en].
+He has bachelor's (2001) in Physics, master's (2005) and PhD (2010) degrees
+in Geophysics from the [usp_en].
+During his PhD he completed an internship program at the
+[Institut de Physique du Globe de Paris](http://www.ipgp.fr/fr), France.
+He did two postdoctoral internships in Geophysics at the [usp_en] (2013) and at
+the [National Observatory](www.on.br) (2016) in Rio de Janeiro, Brazil.
+He develops research in geomagnetism, archeomagnetism, paleointensity,
+environmental magnetism and rock magnetism.
 
-## Linhas de Pesquisa:
-* [Geotecnologias aplicadas ao estudo dos recursos naturais](https://portal.ige.unicamp.br/linha-de-pesquisa/geotecnologias-aplicadas-ao-estudo-dos-recursos-naturais)
+<!--
+   -Professor doutor no [drgn_ige_unicamp] do [ige_unicamp], [unicamp].
+   -Possui graduação em Física (2001), mestrado (2005) e doutorado (2010) em
+   -Geofísica pela [usp], com estágio sanduíche durante o doutorado no
+   -[Institut de Physique du Globe de Paris](http://www.ipgp.fr/fr).
+   -Efetuou dois estágios de pós-doutorado em Geofísica na [usp] (2013) e no
+   -[Observatório Nacional](www.on.br) (2016) no Rio de Janeiro, Brasil.
+   -Desenvolve pesquisas em geomagnetismo, arqueomagnetismo, paleointensidade,
+   -magnetismo ambiental e magnetismo de rochas.
+   -->
 
-## Áreas de Interesse:
-* [Arqueomagnetismo](https://portal.ige.unicamp.br/areas-de-interesse/arqueomagnetismo)
-* [Geomagnetismo](https://portal.ige.unicamp.br/areas-de-interesse/geomagnetismo)
-* [Magnetismo Ambiental](https://portal.ige.unicamp.br/areas-de-interesse/magnetismo-ambiental)
+# Research lines
+
+<!--* [Geotecnologias aplicadas ao estudo dos recursos naturais](https://portal.ige.unicamp.br/linha-de-pesquisa/geotecnologias-aplicadas-ao-estudo-dos-recursos-naturais)-->
+
+* [Geotechnologies Applied to the Study of Natural Resources](https://portal.ige.unicamp.br/en/linha-de-pesquisa/geotechnologies-applied-study-natural-resources)
+
+
+# Areas of interest
+
+<!--
+   -* [Arqueomagnetismo](https://portal.ige.unicamp.br/areas-de-interesse/arqueomagnetismo)
+   -* [Geomagnetismo](https://portal.ige.unicamp.br/areas-de-interesse/geomagnetismo)
+   -* [Magnetismo Ambiental](https://portal.ige.unicamp.br/areas-de-interesse/magnetismo-ambiental)
+   -->
+
+* [Archeomagnetism](https://portal.ige.unicamp.br/en/areas-interest/archeomagnetism)
+* [Geomagnetism](https://portal.ige.unicamp.br/en/areas-interest/geomagnetism)
+* [Environmental Magnetism](https://portal.ige.unicamp.br/en/areas-interest/environmental-magnetism)
+
