@@ -15,7 +15,7 @@ orcid: 0000-0001-5324-7638
 researcherid: D-3234-2012
 #publons: https://publons.com/researcher/2739421/alessandro-batezelli/
 publons: 2739421
-scopus: 26323137300
+scopus: 56400980000
 scholar: https://scholar.google.com.br/citations?hl=&user=YrvGYWMAAAAJ
 lattes: http://lattes.cnpq.br/6617038190471269
 #fapesp: https://bv.fapesp.br/pt/pesquisador/37450/alessandro-batezelli/
@@ -23,7 +23,7 @@ fapesp: https://bv.fapesp.br/pesquisador/37450
 researchgate: https://www.researchgate.net/profile/Alessandro_Batezelli
 #mendeley:
 #github:
-linkedin: alessandro-batezelli-4a35b210
+linkedin: https://www.linkedin.com/in/alessandro-batezelli-4a35b210
 #loop:
 email: abatezelli@unicamp.br
 email2: abatezelli@ige.unicamp.br
