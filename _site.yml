@@ -89,6 +89,18 @@ reflinks:
     content_license:
         url: http://creativecommons.org/licenses/by/4.0/
         title: CC-BY License
+    cnpq:
+        url: http://www.cnpq.br/
+        title: CNPq
+        title2: Ministério da Ciência, Tecnologia, Inovações e Comunicações
+    capes:
+        url: https://www.capes.gov.br/
+        title: CAPES
+        title2: Fundação CAPES
+    fapesp:
+        url: http://www.fapesp.br/
+        title: FAPESP
+        title2: Fundação de Amparo à Pesquisa do Estado de São Paulo
     #urubu:
         #url: http://urubu.jandecaluwe.com
         #title: Urubu
