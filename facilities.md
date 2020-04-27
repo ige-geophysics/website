@@ -1,7 +1,6 @@
 ---
 title: Facilities
 layout: page
-pager: false
 ---
 
 The Geophysics Lab has been funded through research grants from several
@@ -73,18 +72,20 @@ All equipment listed below was acquired through resources from
   </div>
 </div>
 
-<!--Equipament:-->
+<p></p>
 
-Two ENVI-CS and ENVI-MAG, Scintrex magnetometers for measurements of the geomagnetic field;
+<!--Equipament-->
 
-A CG-5 digital gravimeter, Scintrex, for gravity acceleration measurements;
+* Two ENVI-CS and ENVI-MAG, Scintrex magnetometers for measurements of the geomagnetic field;
 
-A RS-230 gamma-spectrometer, Terraplus, for measurements of gamma radiation and concentration of radioactive elements;
+* A CG-5 digital gravimeter, Scintrex, for gravity acceleration measurements;
 
-A KT-10 susceptibility meter, Terraplus, for magnetic susceptibility measurements;
+* A RS-230 gamma-spectrometer, Terraplus, for measurements of gamma radiation and concentration of radioactive elements;
 
-A DGPS Pro-XT, Trimble, for spatial position measurements with a precision of approximately 50 cm;
+* A KT-10 susceptibility meter, Terraplus, for magnetic susceptibility measurements;
 
-A workstation with 128 Gb RAM, 1.5 Tb HD, Intel-core i7 2.0 GHz processor for processing and interpreting geophysical data;
+* A DGPS Pro-XT, Trimble, for spatial position measurements with a precision of approximately 50 cm;
 
-An HP-610 computer, with 16 Gb, 1.5 Tb HD, Intel-core i5 processor, 2.8 GHz for processing and interpreting geophysical data.
+* A workstation with 128 Gb RAM, 1.5 Tb HD, Intel-core i7 2.0 GHz processor for processing and interpreting geophysical data;
+
+* An HP-610 computer, with 16 Gb, 1.5 Tb HD, Intel-core i5 processor, 2.8 GHz for processing and interpreting geophysical data.
