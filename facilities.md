@@ -66,32 +66,21 @@ pager: true
 
 
 
-# Equipamentos:
+<!--Equipament:-->
 
-Dois magnetômetros ENVI-CS e ENVI-MAG, Scintrex, para medidas do campo
-geomagnético;
+Two ENVI-CS and ENVI-MAG, Scintrex magnetometers for measurements of the geomagnetic field;
 
-um gravímetro digital CG-5, Scintrex, para medidas de aceleração
-da gravidade;
+A CG-5 digital gravimeter, Scintrex, for gravity acceleration measurements;
 
-um gamaespectrômetro RS-230, Terraplus, para medidas de radiação
-gama e concentração de elementos radioativos;
+A RS-230 gamma-spectrometer, Terraplus, for measurements of gamma radiation and concentration of radioactive elements;
 
-um susceptibilímetro KT-10,
-Terraplus, para medidas de susceptibilidade magnética;
+A KT-10 susceptibility meter, Terraplus, for magnetic susceptibility measurements;
 
-um DGPS Pro-XT, Trimble,
-para medidas de posição espacial c/ precisão de aproximadamente 50 cm;
+A DGPS Pro-XT, Trimble, for spatial position measurements with a precision of approximately 50 cm;
 
-uma
-workstation c/ 128 Gb RAM, 1,5 Tb HD, processador Intel-core i7 2,0 GHz para
-processamento e intepretação de dados geofísicos;
+A workstation with 128 Gb RAM, 1.5 Tb HD, Intel-core i7 2.0 GHz processor for processing and interpreting geophysical data;
 
-um computador HP-610, c/ 16
-Gb, 1,5 Tb HD, processador Intel-core i5, 2,8 GHz para processamento e
-interpretação de dados geofísicos.
+An HP-610 computer, with 16 Gb, 1.5 Tb HD, Intel-core i5 processor, 2.8 GHz for processing and interpreting geophysical data.
 
-Todos os equipamentos foram adquiridos
-através de recursos de projetos de Auxílio à Pesquisa da FAPESP e Universal
-CNPq.
+All equipment was acquired through resources from FAPESP and CNPq.
 
