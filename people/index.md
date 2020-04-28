@@ -1,6 +1,6 @@
 ---
 title: People
-layout: index
+layout: index_people
 dropdown: true
 order: date
 reverse: false
