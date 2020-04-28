@@ -1,7 +1,7 @@
 ---
 title: Emilson Pereira Leite
 date: 2020-01-01
-period: 1900-2020
+#period: 1900-2020
 head: true
 coord: true
 institution: Instituto de Geociências

@@ -1,7 +1,7 @@
 ---
 title: Alessandro Batezelli
-date: 2020-01-01
-period: 1900-2020
+date: 2020-01-03
+#period: 1900-2020
 head: true
 institution: Instituto de Geociências
 location: Campinas, Brazil
