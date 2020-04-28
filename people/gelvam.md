@@ -1,7 +1,7 @@
 ---
 title: Gelvam André Hartmann
-date: 2020-01-01
-period: 1900-2020
+date: 2020-01-02
+#period: 1900-2020
 head: true
 institution: Instituto de Geociências
 location: Campinas, Brazil
