@@ -54,7 +54,8 @@ ignore_patterns: [
     "requirements.txt",
     "search.md",
     "research.md",
-    "_layouts/nav.html"
+    "_layouts/nav.html",
+    "people/aluno.md"
     ]
 
 #strict_undefined: true
@@ -70,7 +71,7 @@ reflinks:
         title: Universidade Estatual de Campinas
     unicamp_en:
         url: https://www.unicamp.br/unicamp/english
-        title: The University of Campinas
+        title: University of Campinas
     ige_unicamp:
         url: https://portal.ige.unicamp.br
         title: Instituto de Geociências
