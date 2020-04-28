@@ -1,11 +1,14 @@
 ---
 title: Facilities
 layout: page
-pager: true
 ---
 
-<!--<img src="../images/pic/emilson.jpg" class="rounded-circle">-->
+The Geophysics Lab has been funded through research grants from several
+funding agencies.
+All equipment listed below was acquired through resources from
+[fapesp], [cnpq] and [capes].
 
+<!-- Add carousel slide -->
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -17,39 +20,44 @@ pager: true
     </ol>
     <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="/images/facilities/gamaespectrometro1.png";text=First slide" alt="First slide" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
+        <img class="d-block w-100" src="/images/facilities/gamaespectrometro1.png" />
+        <!--<img class="d-block w-100" src="/images/facilities/gamaespectrometro1.png";text=First slide" alt="First slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>First slide label</h5>-->
+          <!--<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+        <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/gamaespectrometro2.png";text=Second slide" alt="Second slide" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        <img class="d-block w-100" src="/images/facilities/gamaespectrometro2.png" />
+        <!--<img class="d-block w-100" src="/images/facilities/gamaespectrometro2.png";text=Second slide" alt="Second slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Second slide label</h5>-->
+          <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+        <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico.png";text=Third slide" alt="Third slide" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
+        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico.png" />
+        <!--<img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico.png";text=Third slide" alt="Third slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Third slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico2.jpeg";text=Fourth slide" alt="Fourth slide" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Fourth slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
+        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico2.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico2.jpeg";text=Fourth slide" alt="Fourth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fourth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico3.jpeg";text=Fifth slide" alt="Fifth slide" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Fifth slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
+        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico3.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico3.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
       </div>
 
     </div>
@@ -64,34 +72,20 @@ pager: true
   </div>
 </div>
 
+<p></p>
 
+<!--Equipament-->
 
-# Equipamentos:
+* Two ENVI-CS and ENVI-MAG, Scintrex magnetometers for measurements of the geomagnetic field;
 
-Dois magnetômetros ENVI-CS e ENVI-MAG, Scintrex, para medidas do campo
-geomagnético;
+* A CG-5 digital gravimeter, Scintrex, for gravity acceleration measurements;
 
-um gravímetro digital CG-5, Scintrex, para medidas de aceleração
-da gravidade;
+* A RS-230 gamma-spectrometer, Terraplus, for measurements of gamma radiation and concentration of radioactive elements;
 
-um gamaespectrômetro RS-230, Terraplus, para medidas de radiação
-gama e concentração de elementos radioativos;
+* A KT-10 susceptibility meter, Terraplus, for magnetic susceptibility measurements;
 
-um susceptibilímetro KT-10,
-Terraplus, para medidas de susceptibilidade magnética;
+* A DGPS Pro-XT, Trimble, for spatial position measurements with a precision of approximately 50 cm;
 
-um DGPS Pro-XT, Trimble,
-para medidas de posição espacial c/ precisão de aproximadamente 50 cm;
+* A workstation with 128 Gb RAM, 1.5 Tb HD, Intel-core i7 2.0 GHz processor for processing and interpreting geophysical data;
 
-uma
-workstation c/ 128 Gb RAM, 1,5 Tb HD, processador Intel-core i7 2,0 GHz para
-processamento e intepretação de dados geofísicos;
-
-um computador HP-610, c/ 16
-Gb, 1,5 Tb HD, processador Intel-core i5, 2,8 GHz para processamento e
-interpretação de dados geofísicos.
-
-Todos os equipamentos foram adquiridos
-através de recursos de projetos de Auxílio à Pesquisa da FAPESP e Universal
-CNPq.
-
+* An HP-610 computer, with 16 Gb, 1.5 Tb HD, Intel-core i5 processor, 2.8 GHz for processing and interpreting geophysical data.
