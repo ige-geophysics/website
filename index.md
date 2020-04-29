@@ -3,14 +3,14 @@ title: Geophysics Lab
 layout: home
 order: title
 content:
-    - teste
-    - about
+#    - teste
+#    - about
     - people
     - facilities
     - research
     - localization
     - contact
-tagline: Página em desenvolvimento
+#tagline: Página em desenvolvimento
 ---
 
 # Welcome to the Geophysics Lab

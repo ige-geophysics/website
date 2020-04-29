@@ -43,9 +43,9 @@
         {% endif %}
 
         <h4>{{item.title}}</h4>
-        {% if item.date|d %}
-            <h4><small>{{item.date|dateformat}}</small></h4>
-        {% endif %}
+        {#{% if item.date|d %}#}
+            {#<h4><small>{{item.date|dateformat}}</small></h4>#}
+        {#{% endif %}#}
           <p>{{item.position}}</p>
           <p>{{item.institution}}</p>
           {% if item.teaser is defined %}
