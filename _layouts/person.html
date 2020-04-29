@@ -12,8 +12,7 @@
             {% if this.picture is defined %}
                 {#<img class="rounded-pill" src="/images/pic/{{this.picture}}"></img>#}
                 {#<img class="rounded-pill" src="/images/pic/{{this.picture}}" style="max-width:130px"></img>#}
-				<img class="rounded-pill" src="{{url_prefix}}/images/pic/{{this.picture}}" style="max-width:130px"></img>
-    {#<link href="{{url_prefix + '/css/site.css'}}" rel="stylesheet" media="screen">#}
+                <img class="rounded-pill" src="{{url_prefix}}/images/pic/{{this.picture}}" style="max-width:130px"></img>
             {% else %}
                 <span class="fas fa-user-astronaut fa-10x"></span>
             {% endif %}

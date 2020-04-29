@@ -4,7 +4,6 @@ layout: page
 ---
 
 
-
 The Geophysics Lab has been funded through research grants from several
 funding agencies.
 All equipment listed below was acquired through resources from
@@ -22,7 +21,7 @@ All equipment listed below was acquired through resources from
     </ol>
     <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="/images/facilities/gamaespectrometro1.png" />
+        <img class="d-block w-100" src="{{url_prefix}}/images/facilities/gamaespectrometro1.png" />
         <!--<img class="d-block w-100" src="/images/facilities/gamaespectrometro1.png";text=First slide" alt="First slide" />-->
         <!--<div class="carousel-caption d-none d-md-block">-->
           <!--<h5>First slide label</h5>-->
@@ -30,7 +29,7 @@ All equipment listed below was acquired through resources from
         <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/gamaespectrometro2.png" />
+        <img class="d-block w-100" src="{{url_prefix}}/images/facilities/gamaespectrometro2.png" />
         <!--<img class="d-block w-100" src="/images/facilities/gamaespectrometro2.png";text=Second slide" alt="Second slide" />-->
         <!--<div class="carousel-caption d-none d-md-block">-->
           <!--<h5>Second slide label</h5>-->
@@ -38,7 +37,7 @@ All equipment listed below was acquired through resources from
         <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico.png" />
+        <img class="d-block w-100" src="{{url_prefix}}/images/facilities/susceptibilimetro-magnetico.png" />
         <!--<img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico.png";text=Third slide" alt="Third slide" />-->
         <!--<div class="carousel-caption d-none d-md-block">-->
           <!--<h5>Third slide label</h5>-->
@@ -46,7 +45,7 @@ All equipment listed below was acquired through resources from
         <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico2.jpeg" />
+        <img class="d-block w-100" src="{{url_prefix}}/images/facilities/susceptibilimetro-magnetico2.jpeg" />
         <!--<img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico2.jpeg";text=Fourth slide" alt="Fourth slide" />-->
         <!--<div class="carousel-caption d-none d-md-block">-->
           <!--<h5>Fourth slide label</h5>-->
@@ -54,7 +53,7 @@ All equipment listed below was acquired through resources from
         <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico3.jpeg" />
+        <img class="d-block w-100" src="{{url_prefix}}/images/facilities/susceptibilimetro-magnetico3.jpeg" />
         <!--<img class="d-block w-100" src="/images/facilities/susceptibilimetro-magnetico3.jpeg";text=Fifth slide" alt="Fifth slide" />-->
         <!--<div class="carousel-caption d-none d-md-block">-->
           <!--<h5>Fifth slide label</h5>-->
