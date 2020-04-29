@@ -1,7 +1,7 @@
 ---
 title: Localization
 layout: page
-pager: true
+pager: false
 ---
 
 [ige_unicamp_en]
