@@ -2,12 +2,8 @@
 <html lang="{{ site.language }}">
 
   <head>
-    {#{% block head %}#}
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    {% block meta %}
-        {#<title>{{this.title}}</title>#}
 
         <meta name="author" content="{{ site.author }}"/>
 
@@ -15,10 +11,7 @@
         <meta name="keywords" content="{{ site.keywords }}"/>
         {% endif %}
 
-    {% endblock meta %}
-
     <title>{{this.title}}</title>
-    {#<title>{% block title %}{{this.title}}{% endblock title %}</title>#}
     {#<link rel="shortcut icon" href="/images/favicon.png">#}
 
     <!-- Bootstrap -->
@@ -89,7 +82,6 @@
     {% block body %}
     {% endblock %}
 
-    {#{% block javascript_includes %}#}
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
@@ -107,7 +99,6 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/{{bootstrap}}/js/bootstrap.min.js"></script>
     <!--<script src="/js/bootstrap.min.js"></script>-->
     <!--<script src="/js/bootstrap.js"></script>-->
-    {#{% endblock javascript_includes %}#}
 
     {% block body_addon %}
     {% endblock %}
