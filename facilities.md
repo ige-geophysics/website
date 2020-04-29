@@ -3,6 +3,8 @@ title: Facilities
 layout: page
 ---
 
+
+
 The Geophysics Lab has been funded through research grants from several
 funding agencies.
 All equipment listed below was acquired through resources from
@@ -73,6 +75,16 @@ All equipment listed below was acquired through resources from
 </div>
 
 <p></p>
+
+<!--
+   -O uso dos equipamentos ou de serviços de aquisição, processamento e
+   -interpretação de dados devem ser feitas mediante solicitação por email ao
+   -coordenador do laboratório.
+   -->
+
+The use of equipment or services for the acquisition, processing and
+interpretation of data must be made upon request by email to the
+[laboratory coordinator](/people/emilson.html).
 
 <!--Equipament-->
 
