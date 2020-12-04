@@ -18,6 +18,17 @@ All equipment listed below was acquired through resources from
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="10"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="11"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="12"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="13"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="14"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="15"></li>
     </ol>
     <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
       <div class="carousel-item active">
@@ -61,6 +72,86 @@ All equipment listed below was acquired through resources from
         <!--</div>-->
       </div>
 
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_1.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_1.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_2.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_2.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_3.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_3.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_4.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_4.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_5.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_5.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_6.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_6.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_7.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_7.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_8.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_8.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_9.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_9.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_10.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_10.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <!--<div class="carousel-caption d-none d-md-block">-->
+          <!--<h5>Fifth slide label</h5>-->
+          <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+        <!--</div>-->
+      </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
