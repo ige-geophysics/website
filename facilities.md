@@ -209,7 +209,7 @@ interpretation of data must be made upon request by email to the
 
 * 14 Brocas de 1" de diâmetro para testemunhagem de rochas
 
-* 1 Bússolas Brunton
+* 1 Bússola Brunton
 
 * 1 Orientador de amostras, Pomeroy Orienting Fixture OR-2
 
