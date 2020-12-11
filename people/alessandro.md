@@ -33,12 +33,6 @@ layout: person
 teaser: Lab head
 ---
 
-## About
-
-Professor of the [ige_unicamp_en] at the [unicamp_en], Brazil.
-
-## Biography
-
 Graduated in Geology at Universidade Estadual Paulista Júlio de Mesquita Filho
 (1995), Master in Stratigraphy and Sedimentation at Universidade Estadual
 Paulista Júlio de Mesquita Filho (1998) and PhD in Sedimentary Basin Analysis
