@@ -33,12 +33,6 @@ layout: person
 teaser: Lab's coordinator
 ---
 
-# About
-
-Professor of the [ige_unicamp_en] at the [unicamp_en], Brazil.
-
-# Biography
-
 Professor at the [drgn_ige_unicamp_en], [ige_unicamp_en], [unicamp_en].
 He has bachelor's, master's and PhD degrees in Geophysics from the [usp_en].
 During his PhD he completed an internship program at the
