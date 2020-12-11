@@ -34,12 +34,6 @@ layout: person
 teaser: Lab head
 ---
 
-# About
-
-Professor of the [ige_unicamp_en] at the [unicamp_en], Brazil.
-
-# Biography
-
 Professor at the [drgn_ige_unicamp_en], [ige_unicamp_en], [unicamp_en].
 He has bachelor's (2001) in Physics, master's (2005) and PhD (2010) degrees
 in Geophysics from the [usp_en].
