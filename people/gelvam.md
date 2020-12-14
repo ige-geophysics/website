@@ -26,8 +26,7 @@ mendeley: gelvam-hartmann2
 github: gelvam
 #linkedin:
 loop: https://loop.frontiersin.org/people/87611/overview
-email: gelvam@unicamp.com
-email2: gelvam@ige.unicamp.com
+email: gelvam@unicamp.br
 website: https://portal.ige.unicamp.br/docente/gelvam-andre-hartmann
 picture: gelvam.jpg
 layout: person
