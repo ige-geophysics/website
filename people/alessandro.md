@@ -26,7 +26,6 @@ researchgate: https://www.researchgate.net/profile/Alessandro_Batezelli
 linkedin: https://www.linkedin.com/in/alessandro-batezelli-4a35b210
 #loop:
 email: abatezelli@unicamp.br
-email2: abatezelli@ige.unicamp.br
 website: https://portal.ige.unicamp.br/docente/alessandro-batezelli
 picture: alessandro.jpg
 layout: person
