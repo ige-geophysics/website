@@ -25,8 +25,7 @@ researchgate: https://www.researchgate.net/profile/Emilson_Leite
 mendeley: emilson-leite
 github: epleite
 linkedin: https://www.linkedin.com/in/emilson-leite-bb6b6348/
-email: emilson@unicamp.com
-email2: emilson@ige.unicamp.com
+email: emilson@unicamp.br
 website: https://portal.ige.unicamp.br/docente/emilson-pereira-leite
 picture: emilson.jpg
 layout: person
