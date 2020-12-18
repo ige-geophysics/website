@@ -172,8 +172,8 @@ All equipment listed below was acquired through resources from
    -coordenador do laboratório.
    -->
 
-The use of equipment or services for the acquisition, processing and
-interpretation of data must be made upon request by email to the
+For loan of equipments or contracting of services for data acquisition, processing and
+interpretation, please make the request by email to the
 [laboratory coordinator](/people/emilson.html).
 
 <!--Equipament-->
