@@ -145,8 +145,8 @@ All equipment listed below was acquired through resources from
         <!--</div>-->
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_10.jpeg" />
-        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_10.jpeg";text=Fifth slide" alt="Fifth slide" />-->
+        <img class="d-block w-100" src="/geophysics/images/facilities/new/new_facilities_10b.jpeg" />
+        <!--<img class="d-block w-100" src="/images/facilities/new/new_facilities_10b.jpeg";text=Fifth slide" alt="Fifth slide" />-->
         <!--<div class="carousel-caption d-none d-md-block">-->
           <!--<h5>Fifth slide label</h5>-->
           <!--<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
