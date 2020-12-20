@@ -1,6 +1,6 @@
 # Source code for https://ige-geophysics.github.io/
 
-[![Build Status](https://img.shields.io/travis/ige-geophysics/website/master.svg?style=flat-square)](https://travis-ci.org/ige-geophysics/website)
+![build-html](https://github.com/ige-geophysics/website/workflows/build-html/badge.svg)
 [![Powered by Urubu](https://img.shields.io/badge/powered_by-urubu-blue.svg?style=flat-square)](http://urubu.jandecaluwe.com/)
 
 This is the source code for the Geophysics Lab website
@@ -30,5 +30,5 @@ The website theme is made using [bootstrap](http://getbootstrap.com/).
 
 ## Automatic deploy
 
-The site is automatically built and deployed with TravisCI.
-See `.travis.yml`.
+The site is automatically built and deployed with GitHub Actions.
+See files `.github/workflows/build.yml`.
