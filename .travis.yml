@@ -25,10 +25,10 @@ script:
   # Build the website HTML
   - make
 
-deploy:
-  # Push the built HMTL to Github pages
-  - provider: script
-    script: doctr deploy . --built-docs _build --key-path .github_deploy_key.enc --deploy-repo ige-geophysics/ige-geophysics.github.io
-    on:
-      branch: master
-    edge: true
+#deploy:
+  ## Push the built HMTL to Github pages
+  #- provider: script
+    #script: doctr deploy . --built-docs _build --key-path .github_deploy_key.enc --deploy-repo ige-geophysics/ige-geophysics.github.io
+    #on:
+      #branch: master
+    #edge: true
