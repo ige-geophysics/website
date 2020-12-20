@@ -192,19 +192,19 @@ interpretation, please make the request by email to the
 
 * 1 Brunton compass;
 
-* 1 Pomeroy sample orienting fixture OR-2
+* 1 Pomeroy sample orienting fixture OR-2;
 
-* 1 triaxial cell apparatus for geomechanical measurements at high pressures, Martins Campelo Testing Systems LTDA;
+* 1 Triaxial cell apparatus for geomechanical measurements at high pressures, Martins Campelo Testing Systems LTDA;
 
-* 5 Dell Precision 5820 Tower XCTO Base, Intel Xeon W-2145 (3.7GHz, 4.5GHz Turbo, 8C, 11MB Cache, HT, (140W)) 128 Gb DDR4-2666;
+* 5 Dell Precision 5820 Tower XCTO Base, Intel Xeon W-2145 (3.7GHz, 4.5GHz Turbo, 8C, 11MB Cache, HT, 140W) 128 Gb DDR4-2666;
 
 * 2 Dell OptiPlex 7070 SFF BTX, Intel® Core™ i7-9700 (8 Cores/12MB/8T/3.0GHz to 4.8GHz/65W), 8GB 1X8GB DDR4 2666MHz UDIMM Non-ECC;
 
-* 1 Dell Vostro 3470 (Core i5-9400, RAM 8GB, GeForce GT 730, HDD 1TB, DELL WIRELESS 1707)
+* 1 Dell Vostro 3470 (Core i5-9400, RAM 8GB, GeForce GT 730, HDD 1TB, DELL WIRELESS 1707);
 
-* 1 Assembled workstation, RAM 128 Gb, HD 1.5 Tb, Intel core i7 2.8 GHz
+* 1 Assembled workstation, RAM 128 Gb, HD 1.5 Tb, Intel core i7 2.8 GHz;
 
-* 1 All-In-One HP-610, RAM 6 Gb, HD 1.5 Tb, Intel core i5, 2.8 GHz
+* 1 All-In-One HP-610, RAM 6 Gb, HD 1.5 Tb, Intel core i5, 2.8 GHz;
 
-* 3 Dell Latitude 5501 XCTO 9th Generation Intel® Core i7-9850H (6 Cores, 12 MB Cache, 2.6 GHz, 4.6 GHz Turbo, 35W vPro) 16GB, DDR4 Non-ECC;
+* 3 Dell Latitude 5501 XCTO 9th Generation Intel® Core i7-9850H (6 Cores, 12 MB Cache, 2.6 GHz, 4.6 GHz Turbo, 35W vPro) 16GB, DDR4 Non-ECC.
 
