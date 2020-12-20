@@ -61,5 +61,3 @@ Scientific research made with {{ fas('heart') }}, {{ fas('music') }} and lots of
 * {{ open }} Task 1
 * {{ done }} Task 2
 * {{ open }} Task 1
-
-
