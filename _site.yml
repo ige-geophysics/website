@@ -49,7 +49,6 @@ keep_files: [".nojekyll"]
 ignore_patterns: [
     "README.md",
     "LICENSE.md",
-    ".github_deploy_key.enc",
     "environment.yml",
     "requirements.txt",
     "search.md",
