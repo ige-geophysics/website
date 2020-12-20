@@ -13,16 +13,7 @@ content:
 #tagline: Página em desenvolvimento
 ---
 
-## Welcome to the Geophysics Lab
+## The Geophysics Laboratory provides computer resources and geophysical equipments to support research projects involving mineral and hydrocarbon exploration, impact crater modelling, energy resources and environmental problems.
 
-The Geophysics Lab provides computer resources and geophysical equipments to
-support research projects involving mineral and hydrocarbon exploration, impact
-crater modelling, energy resources and environmental problems.
-
-
-## Contact
-
-**Interested in joining our laboratory?**
-Do you have questions about our research?
-Write an email to the laboratory coordinator
+**Contact the coordinator:**
 [Prof. Dr. Emilson Pereira Leite](/people/emilson.html).
