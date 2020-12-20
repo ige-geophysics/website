@@ -1,7 +1,7 @@
 ---
 title: People
 layout: index_people
-dropdown: true
+dropdown: false
 order: date
 reverse: false
 ---

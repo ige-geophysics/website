@@ -54,7 +54,7 @@ ignore_patterns: [
     "search.md",
     "research.md",
     "_layouts/nav.html",
-    "people/aluno.md"
+    #"people/aluno.md"
     ]
 
 #strict_undefined: true
