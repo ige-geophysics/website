@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: index
-dropdown: true
+dropdown: false
 order: date
 reverse: false
 ---
