@@ -61,3 +61,6 @@ _build/
 # Vim files
 .*~
 .*.swp
+
+# VSCode
+.vscode/
