@@ -176,13 +176,13 @@ For loan of equipments or contracting of services for data acquisition, processi
 interpretation, please make the request by email to the
 [laboratory coordinator](/people/emilson.html).
 
-<!--Equipament-->
+<!--Equipment-->
 
 * 1 Scintrex ENVI-CS magnetometer, for magnetic field measurements;
 
 * 1 Scintrex CG-5 digital gravity meter, for gravity acceleration measurements;
 
-* 1 Terraplus RS-230 gamma-ry spectrometer, for measurements of gamma radiation and concentration of radioactive elements;
+* 1 Terraplus RS-230 gamma-ray spectrometer, for measurements of gamma radiation and concentration of radioactive elements;
 
 * 1 Terraplus KT-10 magnetic susceptibility meter;
 
