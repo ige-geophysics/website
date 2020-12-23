@@ -11,6 +11,7 @@ orcid: 0000-0002-0668-3792
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Researcher
+picture: nathalia.png
 layout: person
 teaser: Researcher
 ---
