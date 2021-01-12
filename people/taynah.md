@@ -11,7 +11,7 @@ institution: Instituto de Geociências
 location: Campinas, Brazil
 position: PhD Student
 #linkedin: https://www.linkedin.com/in/
-#picture: taynah.png
+picture: taynah.jpg
 layout: person
 teaser: Geologist
 ---
