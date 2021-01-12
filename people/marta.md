@@ -12,7 +12,7 @@ institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Postdoc Researcher
 website: https://ige.unicamp.br/posdoc/marta-henriques-jacomo
-picture: jacomo.jpg
+picture: martajacomo.jpg
 layout: person
 teaser: Postdoc Researcher
 ---
