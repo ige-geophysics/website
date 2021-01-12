@@ -9,7 +9,7 @@ room: 307
 phone: +55 19 3521-4560
 position: Network analyst
 website: https://portal.ige.unicamp.br/index.php/en/administrative-and-technical-staff/ricardo-campos-passanezi
-picture: ricardo.jpg
+picture: ricardopassanezi.jpg
 layout: person
 teaser: Network administrator
 ---
