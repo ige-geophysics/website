@@ -11,7 +11,7 @@ institution: Instituto de Geociências
 location: Campinas, Brazil
 position: PhD Student
 linkedin: https://www.linkedin.com/in/rafael-cataldo-2a514133
-picture: rafael.png
+picture: rafaelcataldo.png
 layout: person
 teaser: Geologist
 ---
