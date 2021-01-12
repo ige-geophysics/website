@@ -12,7 +12,7 @@ institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Postdoc Researcher
 website: https://portal.ige.unicamp.br/posdoc/alexandre-cruz-sanchetta
-#picture: alexandre.jpg
+picture: sanchetta.jpg
 layout: person
 teaser: Postdoc Researcher
 ---
