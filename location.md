@@ -1,5 +1,5 @@
 ---
-title: Localization
+title: Location Map
 layout: page
 pager: false
 ---
