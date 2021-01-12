@@ -10,7 +10,7 @@ email: l229687@dac.unicamp.br
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: MSc Student
-picture: jennifer.jpg
+picture: jenniferslayder.jpg
 layout: person
 teaser: Petroleum Engineer
 ---
