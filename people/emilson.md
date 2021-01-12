@@ -27,7 +27,7 @@ github: epleite
 linkedin: https://www.linkedin.com/in/emilson-leite-bb6b6348/
 email: emilson@unicamp.br
 website: https://portal.ige.unicamp.br/docente/emilson-pereira-leite
-picture: emilson.jpg
+picture: emilsonleite.jpg
 layout: person
 teaser: Lab's coordinator
 ---
