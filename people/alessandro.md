@@ -27,7 +27,7 @@ linkedin: https://www.linkedin.com/in/alessandro-batezelli-4a35b210
 #loop:
 email: abatezelli@unicamp.br
 website: https://portal.ige.unicamp.br/docente/alessandro-batezelli
-picture: alessandro.jpg
+picture: alessandrobatezelli.jpg
 layout: person
 teaser: Lab head
 ---
