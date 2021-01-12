@@ -28,7 +28,7 @@ github: gelvam
 loop: https://loop.frontiersin.org/people/87611/overview
 email: gelvam@unicamp.br
 website: https://portal.ige.unicamp.br/docente/gelvam-andre-hartmann
-picture: gelvam.jpg
+picture: gelvamhartmann.jpg
 layout: person
 teaser: Lab head
 ---
