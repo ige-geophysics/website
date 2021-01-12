@@ -1,5 +1,5 @@
 ---
-title: Arthur Ribeiero Nunes
+title: Arthur Ribeiro Nunes
 date: 2020-01-11
 lattes: http://lattes.cnpq.br/2219630884689796
 email: a229688@dac.unicamp.br
@@ -10,7 +10,7 @@ email: a229688@dac.unicamp.br
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: MSc Student
-picture: arthur.gif
+picture: arthuribeiro.gif
 layout: person
 teaser: Petroleum Engineer
 ---
