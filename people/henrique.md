@@ -10,7 +10,7 @@ date: 2020-01-05
 institution: Instituto de Geociências
 location: Campinas, Brazil
 position: Reseacher
-picture: henrique.jpg
+picture: henriquebueno.jpg
 layout: person
 teaser: Reseacher
 ---
