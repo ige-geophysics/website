@@ -11,7 +11,7 @@ orcid: 0000-0003-2614-2376
 institution: University of Western Australia
 location: Perth, Australia
 position: Researcher
-picture: medeiros.jpg
+picture: rafaelmedeiros.jpg
 layout: person
 teaser: Physicist
 ---
