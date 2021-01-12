@@ -8,7 +8,7 @@ content:
     - people
     - facilities
     - research
-    - localization
+    - location map
     - contact
 #tagline: Página em desenvolvimento
 ---
