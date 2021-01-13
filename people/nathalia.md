@@ -3,7 +3,7 @@ title: Nathalia Helena Secol Mattos
 date: 2020-01-04
 #date: 2019-12-19
 lattes: 6682210459782291
-email: mattosnh@unicamp.com
+email: mattosnh@unicamp.br
 scholar: https://scholar.google.com/citations?user=9MnTgkAAAAAJ
 #researcherid:
 researchgate: https://www.researchgate.net/profile/Nathalia_Mattos4
